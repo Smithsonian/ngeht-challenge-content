@@ -5,11 +5,19 @@ AUTHOR = 'Greg Lindahl'
 SITENAME = 'ngEHT Analysis Challenge'
 SITEURL = ''
 
+STATIC_URL = '{path}'
+
 PATH = 'content'
+ARTICLE_PATHS = ['examples']
+#ARTICLE_EXCLUDES = ['examples/authors', 'examples/categories', 'examples/tags']
+PAGE_PATHS = ['']
 
 TIMEZONE = 'UTC'
 
 DEFAULT_LANG = 'en'
+
+# causes a "unsupported locale setting" ... challenge doesn't have dated articles anyway
+#DATE_FORMATS = {'en': ('en_US.UTF-8', '%b %d, %Y')}
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -18,17 +26,48 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
+# Blogroll -- bottom - although the docs say this is in the header ?!
 LINKS = (('Pelican', 'https://getpelican.com/'),
          ('Python.org', 'https://www.python.org/'),
          ('Jinja2', 'https://palletsprojects.com/p/jinja/'),
          ('You can modify those links in your config file', '#'),)
+#LINKS_WIDGET_NAME=''
 
-# Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+# Social widget -- bottom right
+SOCIAL = False
+#SOCIAL_WIDGET_NAME=''
+
+DISPLAY_PAGES_ON_MENU = False
+DISPLAY_CATEGORIES_ON_MENU = False
+MENUITEMS = (('Challenge #1', '/challenge/'),
+             ('Installing', '/installing/'),
+             ('FAQ', '/faq/'),
+             ('Credits', '/credits/'),)
+
+PAGE_EXCLUDES = ['templates']
+TEMPLATE_PAGES = {
+    'templates/homepage.html': 'index.html',
+}
+INDEX_SAVE_AS = 'standard_index.html'
 
 DEFAULT_PAGINATION = False
 
-# Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+PAGE_URL = '{slug}/'
+PAGE_SAVE_AS = '{slug}/index.html'
+#ARCHIVES_URL = 'examples/'
+#ARCHIVES_SAVE_AS = 'examples/index.html'
+#ARTICLE_URL = '{slug}/' # category is part of the slug (i.e., examples)
+#ARTICLE_SAVE_AS = '{slug}/index.html'
+#AUTHOR_URL = 'author/{slug}/'
+#AUTHOR_SAVE_AS = 'author/{slug}/index.html'
+#CATEGORY_URL = 'category/{slug}/'
+#CATEGORY_SAVE_AS = 'category/{slug}/index.html'
+#TAG_URL = 'tag/{slug}/'
+#TAG_SAVE_AS = 'tag/{slug}/index.html'
+
+AUTHORS_SAVE_AS = None # Not used
+CATEGORIES_SAVE_AS = None # Not used
+TAGS_SAVE_AS = None # Not used
+
+SLUGIFY_SOURCE = 'basename'
+PATH_METADATA = '(?P<slug>.+).rst'
