@@ -26,11 +26,8 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll -- bottom - although the docs say this is in the header ?!
-LINKS = (('Pelican', 'https://getpelican.com/'),
-         ('Python.org', 'https://www.python.org/'),
-         ('Jinja2', 'https://palletsprojects.com/p/jinja/'),
-         ('You can modify those links in your config file', '#'),)
+# Blogroll
+LINKS = None
 #LINKS_WIDGET_NAME=''
 
 # Social widget -- bottom right
@@ -44,6 +41,7 @@ MENUITEMS = (('Challenge #1', '/challenge/'),
              ('FAQ', '/faq/'),
              ('Credits', '/credits/'),)
 
+THEME_TEMPLATES_OVERRIDES = ['content/templates']
 PAGE_EXCLUDES = ['templates']
 TEMPLATE_PAGES = {
     'templates/homepage.html': 'index.html',
