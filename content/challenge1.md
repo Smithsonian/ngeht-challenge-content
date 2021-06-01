@@ -1,8 +1,18 @@
 title: Analysis Challenge #1
-slug: challenge
-category: challenge
+slug: challenge1
 
-blah blah
+You might need to have a shell script:
+
+    :::bash
+    echo "this is a shell script!"
+
+or a python script:
+
+    :::python
+    print('this is a python script!')
+
+
+
 
 ## Submit your results
 
