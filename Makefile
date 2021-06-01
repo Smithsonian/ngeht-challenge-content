@@ -7,7 +7,8 @@ INPUTDIR=$(BASEDIR)/content
 OUTPUTDIR=$(BASEDIR)/output
 CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
-
+LIVEDIR=$(BASEDIR)/live-website
+TESTDIR=$(BASEDIR)/test-website
 
 DEBUG ?= 0
 ifeq ($(DEBUG), 1)
@@ -32,6 +33,8 @@ help:
 	@echo '                                                                          '
 	@echo 'Usage:                                                                    '
 	@echo '   make html                           (re)generate the web site          '
+	@echo '   make live                           copy website to live               '
+	@echo '   make test                           copy website to test               '
 	@echo '   make clean                          remove the generated files         '
 	@echo '   make regenerate                     regenerate files upon modification '
 	@echo '   make publish                        generate using production settings '
@@ -68,5 +71,11 @@ devserver-global:
 publish:
 	"$(PELICAN)" "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(PUBLISHCONF)" $(PELICANOPTS)
 
+live:
+	rsync -av --delete $(OUTPUTDIR)/ $(LIVEDIR)/
 
-.PHONY: html help clean regenerate serve serve-global devserver publish 
+test:
+	rsync -av --delete $(OUTPUTDIR)/ $(TESTDIR)/
+
+
+.PHONY: html help clean regenerate serve serve-global devserver publish live test
