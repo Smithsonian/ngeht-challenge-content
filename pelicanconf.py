@@ -6,7 +6,7 @@ SITENAME = 'ngEHT Analysis Challenge'
 SITEURL = ''
 
 STATIC_URL = '{path}'
-STATIC_PATHS = ['static']
+STATIC_PATHS = ['static', '']
 
 PATH = 'content'
 ARTICLE_PATHS = ['examples']
