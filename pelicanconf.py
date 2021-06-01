@@ -43,11 +43,8 @@ MENUITEMS = (('Challenge #1', '/challenge1/'),
              ('FAQ', '/faq/'),
              ('Credits', '/credits/'),)
 
-THEME_TEMPLATES_OVERRIDES = ['content/templates']
+THEME_TEMPLATES_OVERRIDES = ['content/templates']  # works for base.html override
 PAGE_EXCLUDES = ['templates']
-TEMPLATE_PAGES = {
-    'templates/homepage.html': 'index.html',
-}
 INDEX_SAVE_AS = 'standard_index.html'
 
 DEFAULT_PAGINATION = False
