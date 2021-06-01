@@ -71,3 +71,6 @@ TAGS_SAVE_AS = None # Not used
 
 SLUGIFY_SOURCE = 'basename'
 PATH_METADATA = '(?P<slug>.+).rst'
+
+# pip install pelican-render-math puts this in the right place
+PLUGINS = ["render_math"]

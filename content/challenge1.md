@@ -1,6 +1,10 @@
 title: Analysis Challenge #1
 slug: challenge1
 
+Math can be rendered inline $e = mc^2$ or in its own (centered) block:
+
+$$e = mc^2$$
+
 You might need to have a shell script:
 
     :::bash
