@@ -6,6 +6,7 @@ SITENAME = 'ngEHT Analysis Challenge'
 SITEURL = ''
 
 STATIC_URL = '{path}'
+STATIC_PATHS = ['static']
 
 PATH = 'content'
 ARTICLE_PATHS = ['examples']
@@ -44,7 +45,7 @@ MENUITEMS = (('Challenge #1', '/challenge1/'),
              ('Credits', '/credits/'),)
 
 THEME_TEMPLATES_OVERRIDES = ['content/templates']  # works for base.html override
-PAGE_EXCLUDES = ['templates']
+PAGE_EXCLUDES = ['templates', 'static']
 INDEX_SAVE_AS = 'standard_index.html'
 
 DEFAULT_PAGINATION = False
