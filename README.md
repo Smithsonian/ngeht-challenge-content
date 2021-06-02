@@ -5,14 +5,14 @@ This git repo contains the content of the ngEHT Analysis Challenge website.
 With luck, this README contains is everything you'll need to know to
 edit the content of the website.
 
-The website is currently at https://challenge.bx9.net/ ... with luck
-it will be at ngeht.org soon.
+The website is currently at https://challenge.bx9.net/ ...
+hopefully it will be at ngeht.org soon.
 
 The github repos are currently
 - https://github.com/wumpus/ngeht-challenge-content/
 - https://github.com/wumpus/ngeht-challenge-infra/
 
-With luck you will only need the first repo.
+You will probably only need the first repo.
 
 Following the overall theme of training people, we're going to update
 the website using github "pull requests", which is the usualy way
