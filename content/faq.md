@@ -2,8 +2,8 @@ title: Frequently Asked Questions
 slug: faq
 category: faq
 
-What is this?
+## What is this?
 
-How do I participate?
+## How do I participate?
 
-Additional QA from Katie's old FAQ
+## Additional QA from Katie's old FAQ
