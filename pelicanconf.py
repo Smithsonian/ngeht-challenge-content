@@ -7,6 +7,7 @@ SITEURL = ''
 
 STATIC_URL = '{path}'
 STATIC_PATHS = ['static', '']
+STATIC_CREATE_LINKS = True  # because of the large data files in static
 
 PATH = 'content'
 ARTICLE_PATHS = ['examples']
@@ -72,3 +73,6 @@ PATH_METADATA = '(?P<slug>.+).rst'
 
 # pip install pelican-render-math puts this in the right place
 PLUGINS = ["render_math"]
+
+# moved here because I'm not using "make publish"
+GOOGLE_ANALYTICS = "G-WEV8PT1PC9"

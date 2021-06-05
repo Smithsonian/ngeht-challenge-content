@@ -12,8 +12,12 @@ different imaging algorithms on simulated data from the expanded
 array, and will help us assess how different array options might
 affect our ability to achieve our science goals.
 
-## Current Status
+## Schedule -- [Challenge 1]({filename}challenge1.md)
 
-We're organizing the simulated data for the first challenge.
+- June 11?, 2021: Synthetic data available
+- June 30?, 2021: Submission deadline
+
+
+
 
 ![ngEHT](../static/Semifinal_Logo_White_Symbol.jpeg)
