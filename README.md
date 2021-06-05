@@ -5,8 +5,7 @@ This git repo contains the content of the ngEHT Analysis Challenge website.
 With luck, this README contains is everything you'll need to know to
 edit the content of the website.
 
-The website is currently at https://challenge.bx9.net/ ...
-hopefully it will be at ngeht.org soon.
+The live website can be found at https://challenge.ngeht.org/
 
 The github repos are currently
 - https://github.com/wumpus/ngeht-challenge-content/
@@ -75,9 +74,9 @@ temporary webserver on your development machine and look at it with a
 browser. To do this, cd into the top level directory of the repo and
 then type "make html" (and fix any problems it reports) and then "make
 serve". While this server is running, you can look at
-"http://127.0.0.1:8000" in your browser and see the
+http://127.0.0.1:8000 in your browser and see the
 website. (Everything except uploading should work.)
 
 Alternately, you can just check in (without any testing), create a
 pull request, and ask Greg to make your new content visible on the
-test website, which is at "https://test.content.bx9.net/"
+test website, which is at https://test.content.bx9.net/
