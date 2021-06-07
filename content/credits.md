@@ -12,6 +12,7 @@ Sandra Bustamante, and Razieh Emami Meibody.
 ([also archived here](https://web.archive.org/web/20201205135432/http://vlbiimaging.csail.mit.edu/imagingchallenge)).
 Katie has more information about that previous challenge in
 [chapter 5 of her Ph.D. thesis](https://dspace.mit.edu/handle/1721.1/113998).
+- Most participants are using Andrew Chael's [eht-imaging package](https://github.com/achael/eht-imaging) ([Chael+ 2018](http://adsabs.harvard.edu/abs/2018ApJ...857...23C))
 - Greg Lindahl organized this website, with content contributed from many sources.
 
 Support for the ngEHT includes grants from the National Science
