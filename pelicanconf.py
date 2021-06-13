@@ -8,6 +8,7 @@ SITEURL = ''
 STATIC_URL = '{path}'
 STATIC_PATHS = ['static', '']
 STATIC_CREATE_LINKS = True  # because of the large data files in static
+# but I never figured out how to talk rsync into hard linking them
 
 PATH = 'content'
 ARTICLE_PATHS = ['examples']
@@ -63,6 +64,10 @@ PAGE_SAVE_AS = '{slug}/index.html'
 #CATEGORY_SAVE_AS = 'category/{slug}/index.html'
 #TAG_URL = 'tag/{slug}/'
 #TAG_SAVE_AS = 'tag/{slug}/index.html'
+
+EXTRA_PATH_METADATA = {
+    'static/robots.txt': {'path': 'robots.txt'},
+}
 
 AUTHORS_SAVE_AS = None # Not used
 CATEGORIES_SAVE_AS = None # Not used

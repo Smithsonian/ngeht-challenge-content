@@ -1,0 +1,5 @@
+User-Agent: *
+
+Disallow: /c1downloads/
+Disallow: /c2downloads/
+Disallow: /c3downloads/
