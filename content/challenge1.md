@@ -44,7 +44,7 @@ Citation: These images are generated for the ngEHT winter science meeting end-to
 Parameters:
 
 - GRRT at 230/345/690 GHz at 4096x4096 pixels
-- FOV 128M, d=8.178kpc and m=4.14M_sun (GRAVITY et al. 2019)
+- FOV 128M, d=8.178kpc and m=4.14M\_sun (GRAVITY et al. 2019)
 
 ### M87
 
@@ -55,13 +55,13 @@ Yet to be written
 ### Station locations
 
 Two arrays were used to generate the synthetic data. They are labeled
-eht_2022 and ngeht_ref1. eht_2022 consists of the 11 stations expected
-to participate in the 2022 EHT observations. In ngeht_ref1, 10
+eht\_2022 and ngeht\_ref1. eht\_2022 consists of the 11 stations expected
+to participate in the 2022 EHT observations. In ngeht\_ref1, 10
 stations are added to this array. The station locations were chosen
 based on a uv-coverage analysis led by Alex Raymond, investigating
 which combination of sites from Raymond et al. (2021) provided optimal
 uv-coverage, folding in weather dropouts. The LMT, SPT, and KP were
-not included in the 345 GHz observations with eht_2022. The station
+not included in the 345 GHz observations with eht\_2022. The station
 locations are shown in the image below.
 
 ![ngEHT ref1](../static/ngeht_ref1.png)
@@ -99,7 +99,7 @@ from the assumptions outlined above. For a more detailed breakdown,
 see [arrays/station_info.csv](../static/ngEHT_Analysis_Challenges/Challenge_1/arrays/station_info.csv)
 
 [jtable]
-Station, Code, X (m), Y (m), Z (m), SEFD_230 (Jy), SEFD_345 (Jy)
+Station, Code, X (m), Y (m), Z (m), SEFD\_230 (Jy), SEFD\_345 (Jy)
 IRAM-30m, PV, 5088968, -301682, 3825016, 809, 4456
 SMT, AZ, -1828796, -5054407, 3427865, 4973, 27410
 SMA, SM, -5464523, -2493147, 2150612, 1500, 5882
@@ -146,7 +146,7 @@ but could certainly provide us with valuable insights.
 It would be helpful but not required to add a txt file summarizing your experience with this challenge. Think of questions like
 
 - What imaging parameters did you find work best on these datasets?
-- How difficult was it to image ngeht_ref1 versus eht_2022, or 345 GHz versus 230 GHz?
+- How difficult was it to image ngeht\_ref1 versus eht\_2022, or 345 GHz versus 230 GHz?
 - Did the reconstruction quality and improvement of different arrays and frequencies meet your expectations?
 - Based on your experience with these datasets, do you think there should be more development of the reconstruction method you used?
 - What source models, data properties, or specific charges would you like to see in future challenges?
@@ -154,26 +154,26 @@ It would be helpful but not required to add a txt file summarizing your experien
 
 ## Filename conventions
 
-For the zip files, use the format challenge1_[firstnamelastname].zip. 
+For the zip files, use the format challenge1\_[firstnamelastname].zip. 
 
-Example: challenge1_freekroelofs.zip
+Example: challenge1\_freekroelofs.zip
 
-For the FITS files, use the format challenge1_[source]_[array]_[frequency]_[method]_[firstnamelastname].fits
+For the FITS files, use the format challenge1\_[source]\_[array]\_[frequency]\_[method]\_[firstnamelastname].fits
 
 - source: SGRA or M87
-- array: eht2022 or ngeht_ref1
+- array: eht2022 or ngeht\_ref1
 - frequency: 230 or 345
 - method: rml, clean, themage, or other
 
-Example: challenge1_SGRA_eht2022_230_rml_freekroelofs.fits
+Example: challenge1\_SGRA\_eht2022\_230\_rml\_freekroelofs.fits
 
-For non-imaging results, use the format challenge1_[source]_[array]_[frequency]_nonimaging_[firstnamelastname].txt
+For non-imaging results, use the format challenge1\_[source]\_[array]\_[frequency]\_nonimaging\_[firstnamelastname].txt
 
-Example: challenge1_SGRA_eht2022_230_nonimaging_freekroelofs.txt
+Example: challenge1\_SGRA\_eht2022\_230\_nonimaging\_freekroelofs.txt
 
-For the evaluation, use the format challenge1_evaluation_[firstnamelastname].txt. 
+For the evaluation, use the format challenge1\_evaluation\_[firstnamelastname].txt. 
 
-Example: challenge1_evaluation_freekroelofs.txt
+Example: challenge1\_evaluation\_freekroelofs.txt
 
 ## Submit your results
 
