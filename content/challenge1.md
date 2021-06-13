@@ -34,6 +34,7 @@ ngEHT Simulation group presentations:
 ### SGRA
 
 ![Sgr A* model](../static/sgra_model_challenge1.png)
+
 Description: Semi-analytic stationary RIAF model for SgrA in the literature (see, e.g. Broderick & Loeb 2006). This model can be used to test the capabilities of next generation arrays in precision modeling of BH parameters. High resolution is needed to capture the unique signature from subring structure. This model does not capture any variability due to turbulence in the system.
 
 Details: The basic model is a=0 (Schwarzschild) at an inclination of i=130 deg and all models include non-thermal particles. The model includes disk height (following Pu et al. 2018), sub-Keplerian flow properties (kappa=0.5, alpha=0.5) following the notation of Tiede et al. 2020 -- e.g. Eq. 10 and 11) and fitted to the observed data of Bower et al. 2015, 2019, Liu et al. 2016 and Zhao et al. 2003.
