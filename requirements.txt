@@ -1,2 +1,8 @@
 pelican[markdown]
 pelican-render-math
+
+#pelican-just-table
+# made a clone of https://github.com/Kristinita/just_table branch KiraPatchAllGenerators
+# which allows tables to be placed in "pages" and not just "articles"
+git+https://github.com/wumpus/just_table.git@KiraPatchAllGenerators
+

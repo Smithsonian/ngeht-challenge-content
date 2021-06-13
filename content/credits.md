@@ -5,9 +5,7 @@ category: credits
 This analysis challenge is the work of a large community:
 
 - Freek Roelofs and Lindy Blackburn organized the overall challenge.
-- The rest of the committee includes Christian Fromm, Katie Bouman,
-Dom Pesce, Koushik Chatterjee, Daniel Palumbo, Greg Lindahl, Joseph Farah,
-Sandra Bustamante, and Razieh Emami Meibody.
+- The rest of the committee includes: Blackburn, Bouman, Bustamante, Chael, Chatterjee, Doeleman, Emami Meibody, Farah, Fitzpatrick, Fromm, Gomez, Johnson, Levis, Lindahl, Palumbo, Pesce, Gelles, Raymond, Roelofs (coord.), Tiede, Wielgus, Wong, Yoon
 - Thanks are due to Katie Bouman (now at Caltech) for the [previous EHT imaging challenge](http://vlbiimaging.csail.mit.edu/)
 ([also archived here](https://web.archive.org/web/20201205135432/http://vlbiimaging.csail.mit.edu/imagingchallenge)).
 Katie has more information about that previous challenge in

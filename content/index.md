@@ -14,10 +14,7 @@ affect our ability to achieve our science goals.
 
 ## Schedule -- [Challenge 1]({filename}challenge1.md)
 
-- June 11?, 2021: Synthetic data available
-- June 30?, 2021: Submission deadline
-
-
-
+- June 11, 2021: Synthetic data available
+- June 30, 2021: Submission deadline
 
 ![ngEHT](../static/Semifinal_Logo_White_Symbol.jpeg)
