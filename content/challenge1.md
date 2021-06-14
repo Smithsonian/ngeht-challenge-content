@@ -15,6 +15,12 @@ specified, all source models and data products should be kept
 proprietary among those currently invited to participate in the
 challenge, which includes all EHT Collaboration members.
 
+## Table of Contents
+
+- [Downloads](./#Downloads)
+- [Example Scripts](./#ExampleScripts)
+- [Submissions](./#Submissions)
+
 ## Schedule
 
 - June 11, 2021: Synthetic data available
@@ -123,9 +129,13 @@ OVRO, OV, -2409598, -4478348, 3838607, 23788, 894355
 SGO, SG, 1832000, -5034000, -3455000, 10905, 50204
 [/jtable]
 
-# Submissions
+## <a name="Downloads">Downloads</a>
 
-## Images
+## <a name="ExampleScripts">Example Scripts</a>
+
+## <a name="Submissions">Submissions</a>
+
+### Images
 
 Please submit your images as FITS files bundled in a zip file. The
 images can be reconstructed with any field of view or pixel
@@ -133,7 +143,7 @@ resolution, as long as this is clear from the FITS header. We will be
 using eht-imaging to load and evaluate the images, so it may be worth
 checking if your image loads properly in eht-imaging.
 
-## Non-imaging results
+### Non-imaging results
 
 If you have performed analysis other than imaging (e.g., fit a
 geometric model, measured the black hole mass or spin, or constrained
@@ -141,7 +151,7 @@ plasma parameters), please provide a text file summarizing your method
 and results. These results will not be formally compared or analyzed,
 but could certainly provide us with valuable insights.
 
-## Evaluation
+### Evaluation
 
 It would be helpful but not required to add a txt file summarizing your experience with this challenge. Think of questions like
 
@@ -152,7 +162,7 @@ It would be helpful but not required to add a txt file summarizing your experien
 - What source models, data properties, or specific charges would you like to see in future challenges?
 - Do you have any feedback on the infrastructure and organization of the challenges?
 
-## Filename conventions
+### Filename conventions
 
 For the zip files, use the format challenge1\_[firstnamelastname].zip. 
 
@@ -183,7 +193,6 @@ Example: challenge1\_evaluation\_freekroelofs.txt
     <input type="hidden" name="challenge" value="challenge1"/>
     <input type="text" name="name" placeholder="Your Name"/><br/>
     <input type="email" name="email" placeholder="Your Email"/><br/>
-    <input type="text" name="team" placeholder="Your Team"/><br/>
     <label for="zip">zip file: </label>
     <input id="zip" name="zip" type="file" value=""/><br/>
 

@@ -6,14 +6,15 @@ SITENAME = 'ngEHT Analysis Challenge'
 SITEURL = ''
 
 STATIC_URL = '{path}'
-STATIC_PATHS = ['static', '']
+STATIC_PATHS = ['static', '', 'c1downloads']
 STATIC_CREATE_LINKS = True  # because of the large data files in static
 # but I never figured out how to talk rsync into hard linking them
 
 PATH = 'content'
-ARTICLE_PATHS = ['examples']
-#ARTICLE_EXCLUDES = ['examples/authors', 'examples/categories', 'examples/tags']
 PAGE_PATHS = ['']
+ARTICLE_PATHS = []
+#ARTICLE_PATHS = ['examples']
+#ARTICLE_EXCLUDES = ['examples/authors', 'examples/categories', 'examples/tags']
 
 TIMEZONE = 'UTC'
 
