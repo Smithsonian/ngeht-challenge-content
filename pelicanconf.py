@@ -6,7 +6,7 @@ SITENAME = 'ngEHT Analysis Challenge'
 SITEURL = ''
 
 STATIC_URL = '{path}'
-STATIC_PATHS = ['static', '', 'c1downloads']
+STATIC_PATHS = ['static', '', 'c1downloads', 'scripts']
 STATIC_CREATE_LINKS = True  # because of the large data files in static
 # but I never figured out how to talk rsync into hard linking them
 

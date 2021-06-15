@@ -1,19 +1,26 @@
 title: Analysis Challenge #1
 slug: challenge1
 
-Welcome to the first ngEHT analysis challenge. The primary objective
-of this first challenge is to set up a framework for the generation of
-synthetic ngEHT data based on theoretical source models, and to
-conduct the organized submission and cross-comparison of
-reconstruction results from multiple teams. This challenge includes
-two static total-intensity source models (SgrA* and M87), and a
-simulated observation using a hypothetical ngEHT array including the
-current EHT and 10 additional stations. Participants are requested to
-submit image reconstructions by June 30th to the ngEHT challenge
-website -- see below for details. Please note that unless otherwise
-specified, all source models and data products should be kept
-proprietary among those currently invited to participate in the
-challenge, which includes all EHT Collaboration members.
+Welcome to the first ngEHT analysis challenge. The primary objectives
+of this first challenge are to set up a framework for the generation
+of synthetic ngEHT data based on theoretical source models, to conduct
+the organized submission and cross-comparison of reconstruction
+results from multiple people, and to get a first idea of the benefits
+and challenges of ngEHT datasets as compared to the current EHT.
+
+We invite participants to submit image reconstructions from a total of
+eight synthetic datasets. Additionally, results from any non-imaging
+analysis are also welcome, as well as an evaluation on the
+challenge. This challenge includes two static total-intensity source
+models (SgrA* and M87), and simulated observations a two frequencies
+(230 and 345 GHz) using a hypothetical ngEHT array including the
+current EHT and 10 additional stations (ngeht_ref1 and
+eht_2022). Participants are requested to submit image reconstructions
+by July 16th to the ngEHT challenge website -- see below for details
+and instructions. Please note that unless otherwise specified, all
+source models and data products should be kept proprietary among those
+currently invited to participate in the challenge, which includes all
+EHT Collaboration members.
 
 ## Table of Contents
 
@@ -23,7 +30,8 @@ challenge, which includes all EHT Collaboration members.
 
 ## Schedule
 
-- June 11, 2021: Synthetic data available
+- June 11, 2021: Internal testing
+- June 18, 2021: General announcement
 - June 30, 2021: Submission deadline
 
 ## Related links
@@ -45,12 +53,16 @@ Description: Semi-analytic stationary RIAF model for SgrA in the literature (see
 
 Details: The basic model is a=0 (Schwarzschild) at an inclination of i=130 deg and all models include non-thermal particles. The model includes disk height (following Pu et al. 2018), sub-Keplerian flow properties (kappa=0.5, alpha=0.5) following the notation of Tiede et al. 2020 -- e.g. Eq. 10 and 11) and fitted to the observed data of Bower et al. 2015, 2019, Liu et al. 2016 and Zhao et al. 2003.
 
-Citation: These images are generated for the ngEHT winter science meeting end-to-end simulation studies by Christian Fromm (cfromm@th.physik.uni-frankfurt.de). Please contact C.F. for use outside ngEHT challenge activities.
+Citation: These images are generated for ngEHT end-to-end simulation studies by Christian Fromm (cfromm@th.physik.uni-frankfurt.de). Please contact C.F. for use outside ngEHT challenge activities.
 
 Parameters:
 
-- GRRT at 230/345/690 GHz at 4096x4096 pixels
+- GRRT at 230/345 GHz at 4096x4096 pixels
 - FOV 128M, d=8.178kpc and m=4.14M\_sun (GRAVITY et al. 2019)
+
+Scattering: The 230 GHz and 345 GHz images were scattered with the
+same realization of the Johnson et al. 2018 scattering model before
+generating the synthetic data.
 
 ### M87
 
@@ -75,8 +87,9 @@ locations are shown in the image below.
 ### Data properties
 
 A 24-hour observing track was simulated for each array, source, and
-frequency. Each track consists of 10-minute scans interleaved with
-10-minute gaps. A single frequency channel with a time resolution of
+frequency, resulting in eight separate datasets. Each track consists
+of 10-minute scans interleaved with 10-minute gaps and is identical
+for each dataset. A single frequency channel with a time resolution of
 10 seconds is provided.
 
 Thermal noise expected from the receiver and enhanced by atmospheric
@@ -92,7 +105,7 @@ assumptions were made for all sites:
 - Bandwidth: 8 GHz
 - Quantization efficiency: 0.88
 - Dish diameter: 6 m for new sites, actual diameter for existing sites
-- Opacity: median values in April as extracted from the MERRA-2 data by Raymond et al. (2021), at 30 degrees elevation.
+- Opacity: median values in April as extracted from the MERRA-2 data by Raymond et al. (2021), at 30 degrees elevation. The opacities were set constant throughout and across the different datasets, but are frequency-dependent.
 
 Visibility phases were scrambled, but stabilized across scans. No further systematic errors were added, this will be done in future challenges.
 
@@ -102,7 +115,7 @@ After data generation, data points with a signal-to-noise ratio less than 1 were
 
 The table below summarizes the station locations and SEFDs resulting
 from the assumptions outlined above. For a more detailed breakdown,
-see [arrays/station_info.csv](../static/ngEHT_Analysis_Challenges/Challenge_1/arrays/station_info.csv)
+see [arrays/station_info.csv](../c1downloads/Challenge_1/arrays/station_info.csv)
 
 [jtable]
 Station, Code, X (m), Y (m), Z (m), SEFD\_230 (Jy), SEFD\_345 (Jy)
@@ -131,7 +144,22 @@ SGO, SG, 1832000, -5034000, -3455000, 10905, 50204
 
 ## <a name="Downloads">Downloads</a>
 
+Please note that unless otherwise specified, all source models and
+data products should be kept proprietary among those currently invited
+to participate in the challenge, which includes all EHT Collaboration
+members.
+
+Downloads are password protected: the username is `challenge1` and the
+secret password is available if you ask on Slack, on the
+`analysis-challenge-1` channel on the ngEHT-2021 Slack.
+
+[Challenge 1 Downloads](../c1downloads/)
+
 ## <a name="ExampleScripts">Example Scripts</a>
+
+Joseph Farah has provided an example imaging script, [genericImaging.py](../scripts/genericImaging.py)
+
+Running on `M87_eht2022_230_thnoise.uvfits`, it took 90 seconds and used 3 gigabytes of memory.
 
 ## <a name="Submissions">Submissions</a>
 
@@ -139,9 +167,16 @@ SGO, SG, 1832000, -5034000, -3455000, 10905, 50204
 
 Please submit your images as FITS files bundled in a zip file. The
 images can be reconstructed with any field of view or pixel
-resolution, as long as this is clear from the FITS header. We will be
-using eht-imaging to load and evaluate the images, so it may be worth
-checking if your image loads properly in eht-imaging.
+resolution, as long as this is clear from the FITS header. If you can,
+submit an image for each of the eight provided datasets. For the M87
+datasets and the ngeht_ref1 Sgr A* datasets, you may also analyze the
+230 and 345 GHz data jointly. For Sgr A*, please submit your best
+estimate of the intrinsic source structure (i.e. after any scattering
+mitigation). You may submit multiple images reconstructed using
+different methods; please follow the filename conventions as specified
+below. We will be using eht-imaging to load and evaluate the images,
+so it may be worth checking if your image loads properly in
+eht-imaging.
 
 ### Non-imaging results
 
@@ -156,7 +191,7 @@ but could certainly provide us with valuable insights.
 It would be helpful but not required to add a txt file summarizing your experience with this challenge. Think of questions like
 
 - What imaging parameters did you find work best on these datasets?
-- How difficult was it to image ngeht\_ref1 versus eht\_2022, or 345 GHz versus 230 GHz?
+- How difficult was it to image ngeht_ref1 versus eht_2022, or 345 GHz versus 230 GHz?
 - Did the reconstruction quality and improvement of different arrays and frequencies meet your expectations?
 - Based on your experience with these datasets, do you think there should be more development of the reconstruction method you used?
 - What source models, data properties, or specific charges would you like to see in future challenges?
@@ -172,10 +207,10 @@ For the FITS files, use the format challenge1\_[source]\_[array]\_[frequency]\_[
 
 - source: SGRA or M87
 - array: eht2022 or ngeht\_ref1
-- frequency: 230 or 345
-- method: rml, clean, themage, or other
+- frequency: 230, 345, or 230 + 345
+- method: e.g. ehtim, smili, clean, themage
 
-Example: challenge1\_SGRA\_eht2022\_230\_rml\_freekroelofs.fits
+Example: challenge1\_SGRA\_eht2022\_230\_ehtim\_freekroelofs.fits
 
 For non-imaging results, use the format challenge1\_[source]\_[array]\_[frequency]\_nonimaging\_[firstnamelastname].txt
 
