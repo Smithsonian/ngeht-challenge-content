@@ -25,8 +25,16 @@ EHT Collaboration members.
 ## Table of Contents
 
 - [Downloads](./#Downloads)
-- [Example Scripts](./#ExampleScripts)
 - [Submissions](./#Submissions)
+- [Source models](./#SourceModels)
+
+## Communicating with the organizers
+
+The primary way to talk to the challenge organizers is the private
+`analysis-challenge-1` channel on the ngEHT-2021 Slack.  If you need an
+invite to the Slack or to the channel, please contact Greg at glindahl
+ZAT cfa.harvard.edu.  We're also happy to help people with software
+installation advice.
 
 ## Schedule
 
@@ -34,16 +42,104 @@ EHT Collaboration members.
 - June 18, 2021: General announcement
 - June 30, 2021: Submission deadline
 
-## Related links
+## <a name="Downloads">Downloads</a>
 
-[ngEHT Winter meeting challenge files (previous work)](https://drive.google.com/drive/folders/10TrAZbQUzyYQzrK7Ruzt-XCR0T31bySe?usp=sharing)
+Please note that unless otherwise specified, all source models and
+data products should be kept proprietary among those currently invited
+to participate in the challenge, which includes all EHT Collaboration
+members.
 
-ngEHT Simulation group presentations:
-[12/8/2020](https://docs.google.com/presentation/d/1nv3mRWQrk-90J-OzqOQon7R5ZbMEi5OXnxy2p9cjWrk/edit#slide=id.gb228cefa57_7_0),
-[4/23/2021](https://docs.google.com/presentation/d/1fhsno3peFbO5tAXeuIVvdPpNSA_IyVYyCHqVn43Z7Hc/edit#slide=id.gd03baebd48_1_15),
-[6/4/2021](https://docs.google.com/presentation/d/1dsfEtEMKXrhUgC62tT5O1xG1iqWwrZc40X3-WRslykc/edit?pli=1#slide=id.p)
+Downloads are password protected: the username is `challenge1` and the
+secret password is available if you ask on Slack, on the
+`analysis-challenge-1` channel on the ngEHT-2021 Slack.
 
-## Source models
+[Challenge 1 Downloads](../c1downloads/)
+
+## Example Scripts
+
+Joseph Farah has provided an example imaging script, [genericImaging.py](../scripts/genericImaging.py)
+
+Running on `M87_eht2022_230_thnoise.uvfits`, it took 90 seconds and used 3 gigabytes of memory.
+
+## <a name="Submissions">Submissions</a>
+
+### Images
+
+Please submit your images as FITS files bundled in a zip file. The
+images can be reconstructed with any field of view or pixel
+resolution, as long as this is clear from the FITS header. If you can,
+submit an image for each of the eight provided datasets. For the M87
+datasets and the ngeht_ref1 Sgr A* datasets, you may also analyze the
+230 and 345 GHz data jointly. For Sgr A*, please submit your best
+estimate of the intrinsic source structure (i.e. after any scattering
+mitigation). You may submit multiple images reconstructed using
+different methods; please follow the filename conventions as specified
+below. We will be using eht-imaging to load and evaluate the images,
+so it may be worth checking if your image loads properly in
+eht-imaging.
+
+### Non-imaging results
+
+If you have performed analysis other than imaging (e.g., fit a
+geometric model, measured the black hole mass or spin, or constrained
+plasma parameters), please provide a text file summarizing your method
+and results. These results will not be formally compared or analyzed,
+but could certainly provide us with valuable insights.
+
+### Evaluation
+
+It would be helpful but not required to add a txt file summarizing your experience with this challenge. Think of questions like
+
+- What imaging parameters did you find work best on these datasets?
+- How difficult was it to image ngeht_ref1 versus eht_2022, or 345 GHz versus 230 GHz?
+- Did the reconstruction quality and improvement of different arrays and frequencies meet your expectations?
+- Based on your experience with these datasets, do you think there should be more development of the reconstruction method you used?
+- What source models, data properties, or specific charges would you like to see in future challenges?
+- Do you have any feedback on the infrastructure and organization of the challenges?
+
+### Filename conventions
+
+For the zip files, use the format challenge1\_[firstnamelastname].zip. 
+
+Example: challenge1\_freekroelofs.zip
+
+For the FITS files, use the format challenge1\_[source]\_[array]\_[frequency]\_[method]\_[firstnamelastname].fits
+
+- source: SGRA or M87
+- array: eht2022 or ngeht\_ref1
+- frequency: 230, 345, or 230 + 345
+- method: e.g. ehtim, smili, clean, themage
+
+Example: challenge1\_SGRA\_eht2022\_230\_ehtim\_freekroelofs.fits
+
+For non-imaging results, use the format challenge1\_[source]\_[array]\_[frequency]\_nonimaging\_[firstnamelastname].txt
+
+Example: challenge1\_SGRA\_eht2022\_230\_nonimaging\_freekroelofs.txt
+
+For the evaluation, use the format challenge1\_evaluation\_[firstnamelastname].txt. 
+
+Example: challenge1\_evaluation\_freekroelofs.txt
+
+## Submit your results
+
+<form action="/upload" method="post" accept-charset="utf-8"
+      enctype="multipart/form-data">
+
+    <input type="hidden" name="challenge" value="challenge1"/>
+    <input type="text" name="name" placeholder="Your Name"/><br/>
+    <input type="email" name="email" placeholder="Your Email"/><br/>
+    <label for="zip">zip file: </label>
+    <input id="zip" name="zip" type="file" value=""/><br/>
+
+    <input type="submit" value="submit"/>
+</form>
+
+Our server has a 1 gigabit Internet connection, so uploads shouldn't
+take too long.  The challenge organizers get notified by Slack for
+every failed or successful upload. If you see any problems, we're likely
+to reach out to contact you quickly.
+
+## <a name="SourceModels">Source models</a>
 
 ### SGRA
 
@@ -142,108 +238,12 @@ OVRO, OV, -2409598, -4478348, 3838607, 23788, 894355
 SGO, SG, 1832000, -5034000, -3455000, 10905, 50204
 [/jtable]
 
-## <a name="Downloads">Downloads</a>
+## Related links
 
-Please note that unless otherwise specified, all source models and
-data products should be kept proprietary among those currently invited
-to participate in the challenge, which includes all EHT Collaboration
-members.
+[ngEHT Winter meeting challenge files (previous work)](https://drive.google.com/drive/folders/10TrAZbQUzyYQzrK7Ruzt-XCR0T31bySe?usp=sharing)
 
-Downloads are password protected: the username is `challenge1` and the
-secret password is available if you ask on Slack, on the
-`analysis-challenge-1` channel on the ngEHT-2021 Slack.
-
-[Challenge 1 Downloads](../c1downloads/)
-
-## <a name="ExampleScripts">Example Scripts</a>
-
-Joseph Farah has provided an example imaging script, [genericImaging.py](../scripts/genericImaging.py)
-
-Running on `M87_eht2022_230_thnoise.uvfits`, it took 90 seconds and used 3 gigabytes of memory.
-
-## <a name="Submissions">Submissions</a>
-
-### Images
-
-Please submit your images as FITS files bundled in a zip file. The
-images can be reconstructed with any field of view or pixel
-resolution, as long as this is clear from the FITS header. If you can,
-submit an image for each of the eight provided datasets. For the M87
-datasets and the ngeht_ref1 Sgr A* datasets, you may also analyze the
-230 and 345 GHz data jointly. For Sgr A*, please submit your best
-estimate of the intrinsic source structure (i.e. after any scattering
-mitigation). You may submit multiple images reconstructed using
-different methods; please follow the filename conventions as specified
-below. We will be using eht-imaging to load and evaluate the images,
-so it may be worth checking if your image loads properly in
-eht-imaging.
-
-### Non-imaging results
-
-If you have performed analysis other than imaging (e.g., fit a
-geometric model, measured the black hole mass or spin, or constrained
-plasma parameters), please provide a text file summarizing your method
-and results. These results will not be formally compared or analyzed,
-but could certainly provide us with valuable insights.
-
-### Evaluation
-
-It would be helpful but not required to add a txt file summarizing your experience with this challenge. Think of questions like
-
-- What imaging parameters did you find work best on these datasets?
-- How difficult was it to image ngeht_ref1 versus eht_2022, or 345 GHz versus 230 GHz?
-- Did the reconstruction quality and improvement of different arrays and frequencies meet your expectations?
-- Based on your experience with these datasets, do you think there should be more development of the reconstruction method you used?
-- What source models, data properties, or specific charges would you like to see in future challenges?
-- Do you have any feedback on the infrastructure and organization of the challenges?
-
-### Filename conventions
-
-For the zip files, use the format challenge1\_[firstnamelastname].zip. 
-
-Example: challenge1\_freekroelofs.zip
-
-For the FITS files, use the format challenge1\_[source]\_[array]\_[frequency]\_[method]\_[firstnamelastname].fits
-
-- source: SGRA or M87
-- array: eht2022 or ngeht\_ref1
-- frequency: 230, 345, or 230 + 345
-- method: e.g. ehtim, smili, clean, themage
-
-Example: challenge1\_SGRA\_eht2022\_230\_ehtim\_freekroelofs.fits
-
-For non-imaging results, use the format challenge1\_[source]\_[array]\_[frequency]\_nonimaging\_[firstnamelastname].txt
-
-Example: challenge1\_SGRA\_eht2022\_230\_nonimaging\_freekroelofs.txt
-
-For the evaluation, use the format challenge1\_evaluation\_[firstnamelastname].txt. 
-
-Example: challenge1\_evaluation\_freekroelofs.txt
-
-## Submit your results
-
-<form action="/upload" method="post" accept-charset="utf-8"
-      enctype="multipart/form-data">
-
-    <input type="hidden" name="challenge" value="challenge1"/>
-    <input type="text" name="name" placeholder="Your Name"/><br/>
-    <input type="email" name="email" placeholder="Your Email"/><br/>
-    <label for="zip">zip file: </label>
-    <input id="zip" name="zip" type="file" value=""/><br/>
-
-    <input type="submit" value="submit"/>
-</form>
-
-Our server has a 1 gigabit Internet connection, so uploads shouldn't
-take too long.  The challenge organizers get notified by Slack for
-every failed or successful upload. If you see any problems, we're likely
-to reach out to contact you quickly.
-
-## Communicating with the organizers
-
-The primary way to talk to the challenge organizers is the private
-`analysis-challenge-1` channel on the ngEHT-2021 Slack.  If you need an
-invite to the Slack or to the channel, please contact Greg at glindahl
-ZAT cfa.harvard.edu.  We're also happy to help people with software
-installation advice.
+ngEHT Simulation group presentations:
+[12/8/2020](https://docs.google.com/presentation/d/1nv3mRWQrk-90J-OzqOQon7R5ZbMEi5OXnxy2p9cjWrk/edit#slide=id.gb228cefa57_7_0),
+[4/23/2021](https://docs.google.com/presentation/d/1fhsno3peFbO5tAXeuIVvdPpNSA_IyVYyCHqVn43Z7Hc/edit#slide=id.gd03baebd48_1_15),
+[6/4/2021](https://docs.google.com/presentation/d/1dsfEtEMKXrhUgC62tT5O1xG1iqWwrZc40X3-WRslykc/edit?pli=1#slide=id.p)
 
