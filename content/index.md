@@ -14,7 +14,8 @@ affect our ability to achieve our science goals.
 
 ## Schedule -- [Challenge 1]({filename}challenge1.md)
 
-- June 11, 2021: Synthetic data available
+- June 11, 2021: Internal testing
+- June 18, 2021: General announcement
 - June 30, 2021: Submission deadline
 
 ![ngEHT](../static/Semifinal_Logo_White_Symbol.jpeg)
