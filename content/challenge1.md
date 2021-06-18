@@ -38,9 +38,8 @@ installation advice.
 
 ## Schedule
 
-- June 11, 2021: Internal testing
 - June 18, 2021: General announcement
-- June 30, 2021: Submission deadline
+- July 16, 2021: Submission deadline
 
 ## <a name="Downloads">Downloads</a>
 
@@ -162,7 +161,18 @@ generating the synthetic data.
 
 ### M87
 
-Yet to be written
+![M87 model](../static/m87_model_challenge1.png)
+
+Description: GRMHD frame for M87 ray-traced using a kappa model for the electron heating.
+
+Citation: These images are generated for ngEHT end-to-end simulation
+studies by Christian Fromm (cfromm@th.physik.uni-frankfurt.de). Please
+contact C.F. for use outside ngEHT challenge activities.
+
+Parameters:
+
+- GRRT at 230/345 GHz at 4096x4096 pixels
+- FOV 1 mas
 
 ## Array and Data Synthesis
 

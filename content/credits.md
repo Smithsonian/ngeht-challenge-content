@@ -4,14 +4,15 @@ category: credits
 
 This analysis challenge is the work of a large community:
 
-- Freek Roelofs and Lindy Blackburn organized the overall challenge.
-- The rest of the committee includes: Blackburn, Bouman, Bustamante, Chael, Chatterjee, Doeleman, Emami Meibody, Farah, Fitzpatrick, Fromm, Gomez, Johnson, Levis, Lindahl, Palumbo, Pesce, Gelles, Raymond, Roelofs (coord.), Tiede, Wielgus, Wong, Yoon
+- Organizing team & contributors: Blackburn, Bouman, Bustamante, Chael,
+Chatterjee, Doeleman, Emami Meibody, Farah, Fitzpatrick, Fromm, Gomez,
+Johnson, Levis, Lindahl, Palumbo, Pesce, Gelles, Raymond, Roelofs
+(coord.), Tiede, Wielgus, Wong, Yoon
 - Thanks are due to Katie Bouman (now at Caltech) for the [previous EHT imaging challenge](http://vlbiimaging.csail.mit.edu/)
 ([also archived here](https://web.archive.org/web/20201205135432/http://vlbiimaging.csail.mit.edu/imagingchallenge)).
 Katie has more information about that previous challenge in
 [chapter 5 of her Ph.D. thesis](https://dspace.mit.edu/handle/1721.1/113998).
 - Most participants are using Andrew Chael's [eht-imaging package](https://github.com/achael/eht-imaging) ([Chael+ 2018](http://adsabs.harvard.edu/abs/2018ApJ...857...23C))
-- Greg Lindahl organized this website, with content contributed from many sources.
 
 Support for the ngEHT includes grants from the National Science
 Foundation, the John Templeton Foundation, and the Gordon and Betty Moore
