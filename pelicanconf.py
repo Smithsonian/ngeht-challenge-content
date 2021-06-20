@@ -82,4 +82,4 @@ PATH_METADATA = '(?P<slug>.+).rst'
 PLUGINS = ["render_math", 'pelican_just_table']
 
 # moved here because I'm not using "make publish"
-GOOGLE_ANALYTICS = "G-WEV8PT1PC9"
+GOOGLE_ANALYTICS = "G-VQ1E29BE8K"
