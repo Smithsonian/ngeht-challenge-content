@@ -6,7 +6,7 @@ This analysis challenge is the work of a large community:
 
 - Organizing team & contributors: Blackburn, Bouman, Bustamante, Chael,
 Chatterjee, Doeleman, Emami Meibody, Farah, Fitzpatrick, Fromm, Gomez,
-Johnson, Levis, Lindahl, Palumbo, Pesce, Gelles, Raymond, Roelofs
+Johnson, Levis, Lindahl, Y. Mizuno, Palumbo, Pesce, Gelles, Raymond, Roelofs
 (coord.), Tiede, Wielgus, Wong, Yoon
 - Thanks are due to Katie Bouman (now at Caltech) for the [previous EHT imaging challenge](http://vlbiimaging.csail.mit.edu/)
 ([also archived here](https://web.archive.org/web/20201205135432/http://vlbiimaging.csail.mit.edu/imagingchallenge)).
