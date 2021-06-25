@@ -163,11 +163,48 @@ generating the synthetic data.
 
 ![M87 model](../static/m87_model_challenge1.png)
 
-Description: GRMHD frame for M87 ray-traced using a kappa model for the electron heating.
+Description: MAD GRMHD frame from a rapid spinning black hole a=0.94
+with electron thermodynamics from reconnection heating (see Mizuno et
+al. 2021 for details
+[https://ui.adsabs.harvard.edu/abs/2021arXiv210609272M/abstract](https://ui.adsabs.harvard.edu/abs/2021arXiv210609272M/abstract)).
+The
+GRMHD simulation was performed with the BHAC code (Porth et al. 2017)
+using three levels of AMR in logarithm Kerr-Schild coordinates. The
+numerical grid covers 384x192x192 cells in radial, azimuthal and theta
+direction and is extending up to 2500 M in radial direction. The mass
+accretion rate and MAD parameter (see Tchekhovskoy 2012) is monitored
+and after obtaining a steady state we perform the general relativistic
+radiative transfer calculations (GRRT).
+
+During the radiative transport we include non-thermal particles via
+the kappa electron distribution (see Pandya et al 2016) in the jet
+sheath while excluding the highly magnetised spine by using a cut in
+the magnetisation at a value of 1 (typically referred as sigma
+cut.) The power-law slope of the kappa distribution is set by a
+particle in cell (PIC) motivated sub-grid model depending on the local
+magnetisation and plasma-beta following Ball et al. 2018. In addition
+we include a fraction of the magnetic energy density to accelerate the
+non-thermal particles (see Davelaar et al. 2019 and Cruz-Osorio
+submitted). In the jet wind and disk region we use a thermal electron
+distribution, where the electron temperature is directly obtained from
+the GRMHD simulation. In order to guarantee capturing small scale
+structure on the horizon scale and at the same time the large scale
+jet structure, we used a FOV of 1mas using a resolution of 4096x4096
+pixels.
+
+Since the GRMHD simulations are scale free we normalise our GRRT
+simulations by setting the mass (6.5e9 M_sun) and distance (16.9 Mpc)
+of the black hole in M87 and iterate the mass accretion rate until a
+compact flux density of 0.8 Jy at 230GHz is obtained.
+
+The radiative transfer is performed with the well tested and highly
+accurate radiative transfer code BHOSS (Younsi et al. 2020)
 
 Citation: These images are generated for ngEHT end-to-end simulation
 studies by Christian Fromm (cfromm@th.physik.uni-frankfurt.de). Please
-contact C.F. for use outside ngEHT challenge activities.
+cite Mizuno et al. 2021
+[https://ui.adsabs.harvard.edu/abs/2021arXiv210609272M/abstract](https://ui.adsabs.harvard.edu/abs/2021arXiv210609272M/abstract)
+and contact C.F. for use outside ngEHT challenge activities
 
 Parameters:
 
