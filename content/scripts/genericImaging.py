@@ -5,11 +5,15 @@
 Filename:         genericImaging.py
 Author:           Joseph Farah
 Description:      Produce image from observation quickly.
-Version:          1.1.0
+Version:          1.2.0
 ====================================
 Notes
     - This is an example script for the 2021 ngEHT imaging challenges.
     - Example command: python genericImaging.py ../dat/synthetic_data/M87_eht2022_230_thnoise.uvfits
+Changelog
+    - Version 1.0.0: first production version of file.
+    - Version 1.1.0: cleaning up code and adding more explicit comments.
+    - Version 1.2.0: Fixed bug found by Nimesh for ngEHT ref1 antenna filename
 """
 
 # ------------- imports ------------- #
@@ -137,6 +141,9 @@ def produceOutput(image, _obs_fpath, output_dir_root="../results/",
     source = _obs_fpath.split('/')[-1].split('_')[0]
     array = _obs_fpath.split('/')[-1].split('_')[1]
     freq = _obs_fpath.split('/')[-1].split('_')[2]
+    if 'ref' in _obs_fpath:
+        array += '_' + _obs_fpath.split('/')[-1].split('_')[2]
+        freq = _obs_fpath.split('/')[-1].split('_')[3]
     method = method
 
     ## construct output filenames ##
