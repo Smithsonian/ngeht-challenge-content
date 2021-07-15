@@ -56,7 +56,7 @@ secret password is available if you ask on Slack, on the
 
 ## Example Scripts
 
-Joseph Farah has provided an example imaging script, [genericImaging.py](../scripts/genericImaging.py)
+Joseph Farah has provided an example imaging script, [genericImaging.py](../scripts/genericImaging.py) (last updated July 15, 2021)
 
 Running on `M87_eht2022_230_thnoise.uvfits`, it took 90 seconds and used 3 gigabytes of memory.
 
