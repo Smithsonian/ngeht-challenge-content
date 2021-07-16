@@ -22,7 +22,6 @@ or a python script:
     <input type="hidden" name="challenge" value="challenge2"/>
     <input type="text" name="name" placeholder="Your Name"/><br/>
     <input type="email" name="email" placeholder="Your Email"/><br/>
-    <input type="text" name="team" placeholder="Your Team"/><br/>
     <label for="zip">zip file: </label>
     <input id="zip" name="zip" type="file" value=""/><br/>
 
