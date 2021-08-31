@@ -17,4 +17,8 @@ affect our ability to achieve our science goals.
 - June 18, 2021: General announcement
 - July 16 2021: Submission deadline
 
+## Schedule -- [Challenge 2]({filename}challenge2.md)
+
+- September/October?: General announcement
+
 ![ngEHT](../static/Semifinal_Logo_White_Symbol.jpeg)

@@ -40,8 +40,8 @@ SOCIAL = False
 
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
-MENUITEMS = (('Challenge #1', '/challenge1/'),
-             ('C#2', '/challenge2/'),
+MENUITEMS = (('C#1', '/challenge1/'),
+             ('Challenge #2', '/challenge2/'),
              ('C#3', '/challenge3/'),
              ('Installing', '/installing/'),
              ('FAQ', '/faq/'),
