@@ -24,13 +24,11 @@ submit results as images or image sequences (for a dynamical model) to
 the ngEHT challenge website. Submissions before Nov 1st will be able
 to be considered by the time of the ngEHT November science meeting
 (Nov 1-5, 2021).
-
 Please note that unless otherwise specified, all source models and
 data products should be kept proprietary among those currently invited
 to participate in the challenge, which includes all EHT Collaboration
 members, and any members of ngEHT science and technical working
 groups.
-
 
 ## Table of Contents
 
@@ -50,6 +48,21 @@ installation advice.
 
 - Oct 19, 2021: Data release
 - Oct 31, 2021: Submission deadline for inclusion in ngEHT November meeting activities
+
+## <a name="Downloads">Downloads</a>
+
+Please note that unless otherwise specified, all source models and
+data products should be kept proprietary among those currently invited
+to participate in the challenge, which includes all EHT Collaboration
+members, and any members of ngEHT science and technical working
+groups.
+
+Downloads are password protected: the username is `challenge1` (yes,
+it's still `challenge1` for the second challenge!) and the secret
+password is available if you ask on Slack, on the
+`analysis-challenge-1` channel on the ngEHT-2021 Slack.
+
+[Challenge 2 Downloads](../c2downloads/)
 
 ## Submit your results
 
