@@ -1,6 +1,7 @@
 title: Analysis Challenge #2
 slug: challenge2
 
+<<<<<<< HEAD
 Welcome to the second ngEHT analysis challenge. The first analysis challenge successfully tested our framework for generating synthetic ngEHT data based on hypothetical array configurations and collecting submitted reconstructions. In our second challenge, we move to a more scientific challenge using dynamical models of SgrA\* and M87, while testing the capabilities of ngEHT at making movies of black holes on our primary science targets.
 
 We invite participants to submit image reconstructions from a total of eight synthetic datasets. Additionally, results from any non-imaging analysis are also welcome, as well as an evaluation on the challenge. This challenge includes two dynamical total-intensity source models for SgrA\*: one based on GRMHD simulations and one using a sheared hot-spot model on top of a stationary RIAF semi-analytic source. It also includes a dynamical GRMHD model of M87 with simulated observations taken over several months. Simulated observations are taken at two distinct frequencies (230 and 345 GHz) using a hypothetical ngEHT array including the current EHT and 10 additional stations (ngeht\_ref1 and eht\_2022). Participants are requested to submit results as images or image sequences (for a dynamical model) to the ngEHT challenge website. Submissions before Nov 1st will be able to be considered by the time of the ngEHT November science meeting (Nov 1-5, 2021).
@@ -22,10 +23,73 @@ invite to the Slack or to the channel, please contact Greg at glindahl
 ZAT cfa.harvard.edu.  We're also happy to help people with software
 installation advice.
 
+=======
+Welcome to the second ngEHT analysis challenge. The first analysis
+challenge successfully tested our framework for generating synthetic
+ngEHT data based on hypothetical array configurations and collecting
+submitted reconstructions. In our second challenge, we move to a more
+scientific challenge using dynamical models of SgrA\* and M87, while
+testing the capabilities of ngEHT at making movies of black holes on
+our primary science targets.
+
+We invite participants to submit image reconstructions from a total of
+eight synthetic datasets. Additionally, results from any non-imaging
+analysis are also welcome, as well as an evaluation on the
+challenge. This challenge includes two dynamical total-intensity
+source models for SgrA\*: one based on GRMHD simulations and one using
+a sheared hot-spot model on top of a stationary RIAF semi-analytic
+source. It also includes a dynamical GRMHD model of M87 with simulated
+observations taken over several months. Simulated observations are
+taken at two distinct frequencies (230 and 345 GHz) using a
+hypothetical ngEHT array including the current EHT and 10 additional
+stations (ngeht\_ref1 and eht\_2022). Participants are requested to
+submit results as images or image sequences (for a dynamical model) to
+the ngEHT challenge website. Submissions before Nov 1st will be able
+to be considered by the time of the ngEHT November science meeting
+(Nov 1-5, 2021).
+Please note that unless otherwise specified, all source models and
+data products should be kept proprietary among those currently invited
+to participate in the challenge, which includes all EHT Collaboration
+members, and any members of ngEHT science and technical working
+groups.
+
+## Table of Contents
+
+- [Downloads](./#Downloads)
+- [Submissions](./#Submissions)
+- [Source models](./#SourceModels)
+
+## Communicating with the organizers
+
+The primary way to talk to the challenge organizers is the private
+`analysis-challenge-1` channel on the ngEHT-2021 Slack.  If you need an
+invite to the Slack or to the channel, please contact Greg at glindahl
+ZAT cfa.harvard.edu.  We're also happy to help people with software
+installation advice.
+
+>>>>>>> 167c0f75d5e051ff36c2301e48bedf8fbe38f479
 ## Schedule
 
 - Oct 19, 2021: Data release
 - Oct 31, 2021: Submission deadline for inclusion in ngEHT November meeting activities
+<<<<<<< HEAD
+=======
+
+## <a name="Downloads">Downloads</a>
+
+Please note that unless otherwise specified, all source models and
+data products should be kept proprietary among those currently invited
+to participate in the challenge, which includes all EHT Collaboration
+members, and any members of ngEHT science and technical working
+groups.
+
+Downloads are password protected: the username is `challenge1` (yes,
+it's still `challenge1` for the second challenge!) and the secret
+password is available if you ask on Slack, on the
+`analysis-challenge-1` channel on the ngEHT-2021 Slack.
+
+[Challenge 2 Downloads](../c2downloads/)
+>>>>>>> 167c0f75d5e051ff36c2301e48bedf8fbe38f479
 
 ## Submit your results
 
@@ -41,6 +105,7 @@ installation advice.
     <input type="submit" value="submit"/>
 </form>
 
+<<<<<<< HEAD
 
 ## <a name="Submissions">Submissions</a>
 
@@ -52,6 +117,37 @@ If you have performed analysis other than imaging (e.g., fit a geometric model, 
 
 ### Evaluation
 It would be helpful but not required to add a txt file summarizing your experience with this challenge. Think of questions like
+=======
+## <a name="Submissions">Submissions</a>
+
+### Images
+
+Please submit your (dynamical) images as FITS files bundled in a zip
+file as specified below. The images can be reconstructed with any
+field of view or pixel resolution, as long as this is clear from the
+FITS header. If you can, submit an image or movie for each source
+model, frequency, and array. For the M87 datasets and the ngeht_ref1
+Sgr A\* datasets, you may also analyze the 86, 230 and 345 GHz data
+jointly. For Sgr A\*, please submit your best estimate of the
+intrinsic source structure (i.e. after any scattering mitigation). You
+may submit multiple images reconstructed using different methods;
+please follow the filename conventions as specified below. We will be
+using eht-imaging to load and evaluate the images, so it may be worth
+checking if your image loads properly in eht-imaging.
+
+### Non-imaging results
+
+If you have performed analysis other than imaging (e.g., fit a
+geometric model, measured the black hole mass or spin, or constrained
+plasma parameters), please provide a text file summarizing your method
+and results. These results will not be formally compared or analyzed,
+but could certainly provide us with valuable insights.
+
+### Evaluation
+
+It would be helpful but not required to add a txt file summarizing
+your experience with this challenge. Think of questions like:
+>>>>>>> 167c0f75d5e051ff36c2301e48bedf8fbe38f479
 
 - What imaging parameters did you find work best on these datasets?
 - How difficult was it to image ngeht_ref1 versus eht_2022, or 345 GHz versus 230 GHz?
@@ -61,12 +157,17 @@ It would be helpful but not required to add a txt file summarizing your experien
 - Do you have any feedback on the infrastructure and organization of the challenges?
 
 ### Filename conventions
+<<<<<<< HEAD
+=======
+
+>>>>>>> 167c0f75d5e051ff36c2301e48bedf8fbe38f479
 For the zip files, use the format challenge2\_[firstnamelastname].zip. 
 
 Example: challenge2_freekroelofs.zip
 
 For each combination, make a folder challenge2\_[source]\_[array]\_[frequency]\_[method]\_[firstnamelastname]
 
+<<<<<<< HEAD
 source: SGRA\_RIAFSPOT, SGRA\_GRMHD or M87\_GRMHD
 
 array: eht2022 or ngeht\_ref1
@@ -78,6 +179,18 @@ method: e.g. ehtim, smili, clean, themage
 Example: challenge2\_SGRA\_GRMHD\_eht2022\_230\_ehtim\_freekroelofs
 
 Within the folder, put the FITS images sorted by frame number, e.g. 0000.fits, 0001.fits, etc. Also provide the frame duration in hours in a file framedur.txt.
+=======
+- source: SGRA\_RIAFSPOT, SGRA\_GRMHD or M87\_GRMHD
+- array: eht2022 or ngeht\_ref1
+- frequency: 86, 230, 345, or e.g. 230+345
+- method: e.g. ehtim, smili, clean, themage
+
+Example: challenge2\_SGRA\_GRMHD\_eht2022\_230\_ehtim\_freekroelofs
+
+Within the folder, put the FITS images sorted by frame number,
+e.g. 0000.fits, 0001.fits, etc. Also provide the frame duration in
+hours in a file framedur.txt.
+>>>>>>> 167c0f75d5e051ff36c2301e48bedf8fbe38f479
 
 For non-imaging results, use the format challenge2\_[source]\_[array]\_[frequency]\_nonimaging\_[firstnamelastname].txt
 
@@ -90,6 +203,7 @@ Example: challenge2\_evaluation\_freekroelofs.txt
 ## <a name="SourceModels">Source models</a>
 
 ### SGRA_RIAFSPOT
+<<<<<<< HEAD
 This Sgr A\* model is a RIAF (Broderick et al. 2016) plus shearing hotspot (Tiede et al. 2020) semi-analytical model prepared by Paul Tiede. The hotspot parameters are inspired by Gravity (2018) and the black hole spin was set to 0.1. The pixel resolution is 313x313 px, with a field of view of 315 uas. The frames are spaced ~30 seconds apart and form a 4-hour movie of a hotspot shearing and falling in, which is repeated a few times over the course of the observation. We only use the Stokes I information from the model.
 
 ![SGRA](../static/challenge2/merged_SGRA.gif) 
@@ -109,11 +223,65 @@ The M87 model is a GRMHD movie with 20 frames that are spaced 20M (~1 week) apar
 ## Array and data synthesis
 ### Station locations
 Two arrays were used to generate the synthetic data. They are labeled eht\_2022 and ngeht\_ref1. eht\_2022 consists of the 11 stations expected to participate in the 2022 EHT observations. In ngeht\_ref1, 10 stations are added to this array. The station locations were chosen based on a uv-coverage analysis led by Alex Raymond, investigating which combination of sites from Raymond et al. (2021) provided optimal uv-coverage, folding in weather dropouts. The LMT, SPT, and KP were not included in the 345 GHz observations with eht_2022. CAT, GAM, GARS, HAY, NZ, and OVRO were not included in the 345 GHz observations with the ngeht. The station locations are shown in the image below.
+=======
+
+This Sgr A\* model is a RIAF (Broderick et al. 2016) plus shearing
+hotspot (Tiede et al. 2020) semi-analytical model prepared by Paul
+Tiede. The hotspot parameters are inspired by Gravity (2018) and the
+black hole spin was set to 0.1. The pixel resolution is 313x313 px,
+with a field of view of 315 uas. The frames are spaced ~30 seconds
+apart and form a 4-hour movie of a hotspot shearing and falling in,
+which is repeated a few times over the course of the observation. We
+only use the Stokes I information from the model.
+
+<p><img src="../static/challenge2/merged_SGRA.gif" alt="SGRA" width="98%"/></p>
+
+### SGRA_GRMHD
+
+This Sgr A\* GRMHD model was prepared by Koushik Chatterjee. The GRMHD model is a MAD model with spin 0.5. The images were ray-traced in Stokes I with BHOSS assuming thermal electrons. The 500 frames are spaced 10M (221 s) apart. The pixel resolution is 2048x2048 px, with a FOV of 400 uas.
+
+<p><img src="../static/challenge2/merged_SGRA_GRMHD.gif" alt="SGRA_GRMHD" width="98%"/></p>
+
+### M87_GRMHD
+
+The M87 model is a GRMHD movie with 20 frames that are spaced 20M (~1
+week) apart. The pixel resolution is 2048x2048 px, with a field of
+view of 1 mas x 1mas. The images were ray-traced from a HAMR
+simulation (SANE, spin 0.94; K. Chatterjee) using ipole by Razieh
+Emami. Rhigh was set to 160 and accelerated electron heating was
+included, setting kappa=3.5. We only use the Stokes I information from
+the model.
+
+<p><img src="../static/challenge2/merged_M87.gif" alt="M87" width="98%"/></p>
+
+## Array and data synthesis
+
+### Station locations
+
+Two arrays were used to generate the synthetic data. They are labeled
+eht\_2022 and ngeht\_ref1. eht\_2022 consists of the 11 stations
+expected to participate in the 2022 EHT observations. In ngeht\_ref1,
+10 stations are added to this array. The station locations were chosen
+based on a uv-coverage analysis led by Alex Raymond, investigating
+which combination of sites from Raymond et al. (2021) provided optimal
+uv-coverage, folding in weather dropouts. The LMT, SPT, and KP were
+not included in the 345 GHz observations with eht_2022. CAT, GAM,
+GARS, HAY, NZ, and OVRO were not included in the 345 GHz observations
+with the ngeht. The station locations are shown in the image below.
+>>>>>>> 167c0f75d5e051ff36c2301e48bedf8fbe38f479
 
 ![ngEHT ref1](../static/ngeht_ref1.png)
 
 ## Data properties
+<<<<<<< HEAD
 Several data corruption and calibration effects were included in the synthetic data generation, for which SYMBA (Roelofs et al. 2020) was used. See the SYMBA antenna files included in the release for detailed antenna and weather parameters.
+=======
+
+Several data corruption and calibration effects were included in the
+synthetic data generation, for which SYMBA (Roelofs et al. 2020) was
+used. See the SYMBA antenna files included in the release for detailed
+antenna and weather parameters.
+>>>>>>> 167c0f75d5e051ff36c2301e48bedf8fbe38f479
 
 - Thermal noise with contributions from the receiver and atmosphere
 - Atmospheric opacity, corrected with a priori amplitude calibration in rPICARD (Janssen et al. 2019), with remaining systematic errors due to a varying opacity across the band and within a scan. The opacities are based on the median pwv, ground pressure, and ground temperature on 1 April (2000-2020) for each site, taken from the MERRA-2 data (https://disc.gsfc.nasa.gov/datasets/M2I3NPASM_5.12.4/summary).

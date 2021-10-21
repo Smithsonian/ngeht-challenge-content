@@ -19,6 +19,7 @@ affect our ability to achieve our science goals.
 
 ## Schedule -- [Challenge 2]({filename}challenge2.md)
 
-- September/October?: General announcement
+- Oct 19, 2021: Data release
+- Oct 31, 2021: Submission deadline for inclusion in ngEHT November meeting activities
 
 ![ngEHT](../static/Semifinal_Logo_White_Symbol.jpeg)
