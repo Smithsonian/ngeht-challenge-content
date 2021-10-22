@@ -46,8 +46,9 @@ installation advice.
 
 ## Schedule
 
-- Oct 19, 2021: Data release
+- Oct 22, 2021: Data release
 - Oct 31, 2021: Submission deadline for inclusion in ngEHT November meeting activities
+- Dec 3, 2021: Nominal submission deadline
 
 ## <a name="Downloads">Downloads</a>
 
@@ -153,25 +154,29 @@ black hole spin was set to 0.1. The pixel resolution is 313x313 px,
 with a field of view of 315 uas. The frames are spaced ~30 seconds
 apart and form a 4-hour movie of a hotspot shearing and falling in,
 which is repeated a few times over the course of the observation. We
-only use the Stokes I information from the model.
+only use the Stokes I information from the model. The raw and scattered movies are shown below.
 
 <p><img src="../static/challenge2/merged_SGRA.gif" alt="SGRA" width="98%"/></p>
 
+<p><img src="../static/challenge2/merged_SGRA_scat.gif" alt="SGRA" width="98%"/></p>
+
 ### SGRA_GRMHD
 
-This Sgr A\* GRMHD model was prepared by Koushik Chatterjee. The GRMHD model is a MAD model with spin 0.5. The images were ray-traced in Stokes I with BHOSS assuming thermal electrons. The 500 frames are spaced 10M (221 s) apart. The pixel resolution is 2048x2048 px, with a FOV of 400 uas.
+This Sgr A\* GRMHD model was prepared by Koushik Chatterjee. The GRMHD model is a MAD model with spin 0.5. The images were ray-traced in Stokes I with BHOSS assuming thermal electrons. The 500 frames are spaced 10M (221 s) apart. The pixel resolution is 2048x2048 px, with a FOV of 400 uas. The raw and scattered movies are shown below.
 
 <p><img src="../static/challenge2/merged_SGRA_GRMHD.gif" alt="SGRA_GRMHD" width="98%"/></p>
+
+<p><img src="../static/challenge2/merged_SGRA_GRMHD_scat.gif" alt="SGRA_GRMHD" width="98%"/></p>
 
 ### M87_GRMHD
 
 The M87 model is a GRMHD movie with 20 frames that are spaced 20M (~1
 week) apart. The pixel resolution is 2048x2048 px, with a field of
 view of 1 mas x 1mas. The images were ray-traced from a HAMR
-simulation (SANE, spin 0.94; K. Chatterjee) using ipole by Razieh
+simulation (MAD, spin 0.94; K. Chatterjee) using ipole by Razieh
 Emami. Rhigh was set to 160 and accelerated electron heating was
 included, setting kappa=3.5. We only use the Stokes I information from
-the model.
+the model. The movies are shown below.
 
 <p><img src="../static/challenge2/merged_M87.gif" alt="M87" width="98%"/></p>
 
@@ -186,9 +191,7 @@ expected to participate in the 2022 EHT observations. In ngeht\_ref1,
 based on a uv-coverage analysis led by Alex Raymond, investigating
 which combination of sites from Raymond et al. (2021) provided optimal
 uv-coverage, folding in weather dropouts. The LMT, SPT, and KP were
-not included in the 345 GHz observations with eht_2022. CAT, GAM,
-GARS, HAY, NZ, and OVRO were not included in the 345 GHz observations
-with the ngeht. The station locations are shown in the image below.
+not included in the 345 GHz observations with eht_2022. The station locations are shown in the image below.
 
 ![ngEHT ref1](../static/ngeht_ref1.png)
 
