@@ -79,4 +79,4 @@ website. (Everything except uploading should work.)
 
 Alternately, you can just check in (without any testing), create a
 pull request, and ask Greg to make your new content visible on the
-test website, which is at https://test.content.bx9.net/
+test website, which is at https://test.challenge.bx9.net/
