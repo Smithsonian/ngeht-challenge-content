@@ -4,65 +4,192 @@ slug: c2downloads
 The total size of these files is 1.7 gigabytes unpacked, and ??? megabytes combined
 into a single zip file.
 
-## DATA IS NOT AVAILABLE YET
-
 ## Download everything at once
 
-[Download all of the files as a single zip -- 525 megabytes](./ngEHT_Challenge_2.zip)
+[Download all of the files as a single zip -- 578 megabytes](./ngEHT_Challenge_2.zip)
 
 ## Download as individual files
 
-Generation script:
-
-* [generate_challenge1_data.py](./Challenge_1/generate_challenge1_data.py)
-
 Arrays
 
-* [arrays/ngeht_ref1_230_ehtim.txt](./Challenge_1/arrays/ngeht_ref1_230_ehtim.txt)
-* [arrays/ngeht_ref1_345_ehtim.txt](./Challenge_1/arrays/ngeht_ref1_345_ehtim.txt)
-* [arrays/station_info.csv](./Challenge_1/arrays/station_info.csv)
-* [arrays/uvcoverage_M87_eht2022_230.uvfits](./Challenge_1/arrays/uvcoverage_M87_eht2022_230.uvfits)
-* [arrays/uvcoverage_M87_eht2022_345.uvfits](./Challenge_1/arrays/uvcoverage_M87_eht2022_345.uvfits)
-* [arrays/uvcoverage_M87_ngeht_ref1_230.uvfits](./Challenge_1/arrays/uvcoverage_M87_ngeht_ref1_230.uvfits)
-* [arrays/uvcoverage_M87_ngeht_ref1_345.uvfits](./Challenge_1/arrays/uvcoverage_M87_ngeht_ref1_345.uvfits)
-* [arrays/uvcoverage_SGRA_eht2022_230.uvfits](./Challenge_1/arrays/uvcoverage_SGRA_eht2022_230.uvfits)
-* [arrays/uvcoverage_SGRA_eht2022_345.uvfits](./Challenge_1/arrays/uvcoverage_SGRA_eht2022_345.uvfits)
-* [arrays/uvcoverage_SGRA_ngeht_ref1_230.uvfits](./Challenge_1/arrays/uvcoverage_SGRA_ngeht_ref1_230.uvfits)
-* [arrays/uvcoverage_SGRA_ngeht_ref1_345.uvfits](./Challenge_1/arrays/uvcoverage_SGRA_ngeht_ref1_345.uvfits)
+* [ngeht_230GHz_month04_q50_symba.antennas](./Challenge_2/arrays/ngeht_230GHz_month04_q50_symba.antennas)
+* [ngeht_345GHz_month04_q50_symba.antennas](./Challenge_2/arrays/ngeht_345GHz_month04_q50_symba.antennas)
+* [ngeht_86GHz_month04_q50_symba.antennas](./Challenge_2/arrays/ngeht_86GHz_month04_q50_symba.antennas)
+
 
 Models
 
-* [models/M87/GRRT_IMAGE_data1400_freq230.fits](./Challenge_1/models/M87/GRRT_IMAGE_data1400_freq230.fits)
-* [models/M87/GRRT_IMAGE_data1400_freq345.fits](./Challenge_1/models/M87/GRRT_IMAGE_data1400_freq345.fits)
-* [models/SGRA/fromm230_scat.fits](./Challenge_1/models/SGRA/fromm230_scat.fits)
-* [models/SGRA/fromm345_scat.fits](./Challenge_1/models/SGRA/fromm345_scat.fits)
+Mac users note: because of the particular codec used in these mp4 files, you will
+want to download [MKPlayer](https://apps.apple.com/us/app/mkplayer-mkv-media-player/id1335612105?mt=12) or VLC
+to play these movies. [Bug report](https://forums.macrumors.com/threads/unable-to-play-h264-avc-mp4-in-quicktime-player-10.1747170/)
+
+M87_GRMHD movies
+
+* [M87_230.mp4](./Challenge_2/models/M87_GRMHD/M87_230.mp4)
+* [M87_345.mp4](./Challenge_2/models/M87_GRMHD/M87_345.mp4)
+* [M87_86.mp4](./Challenge_2/models/M87_GRMHD/M87_86.mp4)
+
+SgrA_GRMHD movies
+
+* [SGRA_GRMHD_230.mp4](./Challenge_2/models/SgrA_GRMHD/SGRA_GRMHD_230.mp4)
+* [SGRA_GRMHD_345.mp4](./Challenge_2/models/SgrA_GRMHD/SGRA_GRMHD_345.mp4)
+* [SGRA_GRMHD_86.mp4](./Challenge_2/models/SgrA_GRMHD/SGRA_GRMHD_86.mp4)
+
+SgrA_hotspot movies
+
+* [SGRA_230.mp4](./Challenge_2/models/SgrA_hotspot/SGRA_230.mp4)
+* [SGRA_345.mp4](./Challenge_2/models/SgrA_hotspot/SGRA_345.mp4)
+* [SGRA_86.mp4](./Challenge_2/models/SgrA_hotspot/SGRA_86.mp4)
 
 Synthetic Data
 
-* [synthetic_data/M87_eht2022_230_thnoise.uvfits](./Challenge_1/synthetic_data/M87_eht2022_230_thnoise.uvfits)
-* [synthetic_data/M87_eht2022_345_thnoise.uvfits](./Challenge_1/synthetic_data/M87_eht2022_345_thnoise.uvfits)
-* [synthetic_data/M87_ngeht_ref1_230_thnoise.uvfits](./Challenge_1/synthetic_data/M87_ngeht_ref1_230_thnoise.uvfits)
-* [synthetic_data/M87_ngeht_ref1_345_thnoise.uvfits](./Challenge_1/synthetic_data/M87_ngeht_ref1_345_thnoise.uvfits)
-* [synthetic_data/SGRA_eht2022_230_thnoise.uvfits](./Challenge_1/synthetic_data/SGRA_eht2022_230_thnoise.uvfits)
-* [synthetic_data/SGRA_eht2022_345_thnoise.uvfits](./Challenge_1/synthetic_data/SGRA_eht2022_345_thnoise.uvfits)
-* [synthetic_data/SGRA_ngeht_ref1_230_thnoise.uvfits](./Challenge_1/synthetic_data/SGRA_ngeht_ref1_230_thnoise.uvfits)
-* [synthetic_data/SGRA_ngeht_ref1_345_thnoise.uvfits](./Challenge_1/synthetic_data/SGRA_ngeht_ref1_345_thnoise.uvfits)
+M87_GRMHD, EHT 2022, allnoise, 3 frequencies
 
-Synthetic Data -- plots
+* [M87_GRMHD_230_116_eht2022_04_allnoise_10s_230GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/230/M87_GRMHD_230_116_eht2022_04_allnoise_10s_230GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_230_118_eht2022_04_allnoise_10s_230GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/230/M87_GRMHD_230_118_eht2022_04_allnoise_10s_230GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_230_120_eht2022_04_allnoise_10s_230GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/230/M87_GRMHD_230_120_eht2022_04_allnoise_10s_230GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_230_122_eht2022_04_allnoise_10s_230GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/230/M87_GRMHD_230_122_eht2022_04_allnoise_10s_230GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_230_124_eht2022_04_allnoise_10s_230GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/230/M87_GRMHD_230_124_eht2022_04_allnoise_10s_230GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_230_126_eht2022_04_allnoise_10s_230GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/230/M87_GRMHD_230_126_eht2022_04_allnoise_10s_230GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_230_128_eht2022_04_allnoise_10s_230GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/230/M87_GRMHD_230_128_eht2022_04_allnoise_10s_230GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_230_130_eht2022_04_allnoise_10s_230GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/230/M87_GRMHD_230_130_eht2022_04_allnoise_10s_230GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_230_132_eht2022_04_allnoise_10s_230GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/230/M87_GRMHD_230_132_eht2022_04_allnoise_10s_230GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_230_134_eht2022_04_allnoise_10s_230GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/230/M87_GRMHD_230_134_eht2022_04_allnoise_10s_230GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_230_136_eht2022_04_allnoise_10s_230GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/230/M87_GRMHD_230_136_eht2022_04_allnoise_10s_230GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_230_138_eht2022_04_allnoise_10s_230GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/230/M87_GRMHD_230_138_eht2022_04_allnoise_10s_230GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_230_140_eht2022_04_allnoise_10s_230GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/230/M87_GRMHD_230_140_eht2022_04_allnoise_10s_230GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_230_142_eht2022_04_allnoise_10s_230GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/230/M87_GRMHD_230_142_eht2022_04_allnoise_10s_230GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_230_144_eht2022_04_allnoise_10s_230GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/230/M87_GRMHD_230_144_eht2022_04_allnoise_10s_230GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_230_146_eht2022_04_allnoise_10s_230GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/230/M87_GRMHD_230_146_eht2022_04_allnoise_10s_230GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_230_148_eht2022_04_allnoise_10s_230GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/230/M87_GRMHD_230_148_eht2022_04_allnoise_10s_230GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_230_150_eht2022_04_allnoise_10s_230GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/230/M87_GRMHD_230_150_eht2022_04_allnoise_10s_230GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_230_152_eht2022_04_allnoise_10s_230GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/230/M87_GRMHD_230_152_eht2022_04_allnoise_10s_230GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_230_154_eht2022_04_allnoise_10s_230GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/230/M87_GRMHD_230_154_eht2022_04_allnoise_10s_230GHz_seed-1_netcal.uvfits)
 
-* [synthetic_data/plots/M87_eht2022_230_thnoise_uvcoverage.png](./Challenge_1/synthetic_data/plots/M87_eht2022_230_thnoise_uvcoverage.png)
-* [synthetic_data/plots/M87_eht2022_230_thnoise_uvdist_amp.png](./Challenge_1/synthetic_data/plots/M87_eht2022_230_thnoise_uvdist_amp.png)
-* [synthetic_data/plots/M87_eht2022_345_thnoise_uvcoverage.png](./Challenge_1/synthetic_data/plots/M87_eht2022_345_thnoise_uvcoverage.png)
-* [synthetic_data/plots/M87_eht2022_345_thnoise_uvdist_amp.png](./Challenge_1/synthetic_data/plots/M87_eht2022_345_thnoise_uvdist_amp.png)
-* [synthetic_data/plots/M87_ngeht_ref1_230_thnoise_uvcoverage.png](./Challenge_1/synthetic_data/plots/M87_ngeht_ref1_230_thnoise_uvcoverage.png)
-* [synthetic_data/plots/M87_ngeht_ref1_230_thnoise_uvdist_amp.png](./Challenge_1/synthetic_data/plots/M87_ngeht_ref1_230_thnoise_uvdist_amp.png)
-* [synthetic_data/plots/M87_ngeht_ref1_345_thnoise_uvcoverage.png](./Challenge_1/synthetic_data/plots/M87_ngeht_ref1_345_thnoise_uvcoverage.png)
-* [synthetic_data/plots/M87_ngeht_ref1_345_thnoise_uvdist_amp.png](./Challenge_1/synthetic_data/plots/M87_ngeht_ref1_345_thnoise_uvdist_amp.png)
-* [synthetic_data/plots/SGRA_eht2022_230_thnoise_uvcoverage.png](./Challenge_1/synthetic_data/plots/SGRA_eht2022_230_thnoise_uvcoverage.png)
-* [synthetic_data/plots/SGRA_eht2022_230_thnoise_uvdist_amp.png](./Challenge_1/synthetic_data/plots/SGRA_eht2022_230_thnoise_uvdist_amp.png)
-* [synthetic_data/plots/SGRA_eht2022_345_thnoise_uvcoverage.png](./Challenge_1/synthetic_data/plots/SGRA_eht2022_345_thnoise_uvcoverage.png)
-* [synthetic_data/plots/SGRA_eht2022_345_thnoise_uvdist_amp.png](./Challenge_1/synthetic_data/plots/SGRA_eht2022_345_thnoise_uvdist_amp.png)
-* [synthetic_data/plots/SGRA_ngeht_ref1_230_thnoise_uvcoverage.png](./Challenge_1/synthetic_data/plots/SGRA_ngeht_ref1_230_thnoise_uvcoverage.png)
-* [synthetic_data/plots/SGRA_ngeht_ref1_230_thnoise_uvdist_amp.png](./Challenge_1/synthetic_data/plots/SGRA_ngeht_ref1_230_thnoise_uvdist_amp.png)
-* [synthetic_data/plots/SGRA_ngeht_ref1_345_thnoise_uvcoverage.png](./Challenge_1/synthetic_data/plots/SGRA_ngeht_ref1_345_thnoise_uvcoverage.png)
-* [synthetic_data/plots/SGRA_ngeht_ref1_345_thnoise_uvdist_amp.png](./Challenge_1/synthetic_data/plots/SGRA_ngeht_ref1_345_thnoise_uvdist_amp.png)
+* [M87_GRMHD_345_116_eht2022_04_allnoise_10s_345GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/345/M87_GRMHD_345_116_eht2022_04_allnoise_10s_345GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_345_118_eht2022_04_allnoise_10s_345GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/345/M87_GRMHD_345_118_eht2022_04_allnoise_10s_345GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_345_120_eht2022_04_allnoise_10s_345GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/345/M87_GRMHD_345_120_eht2022_04_allnoise_10s_345GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_345_122_eht2022_04_allnoise_10s_345GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/345/M87_GRMHD_345_122_eht2022_04_allnoise_10s_345GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_345_124_eht2022_04_allnoise_10s_345GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/345/M87_GRMHD_345_124_eht2022_04_allnoise_10s_345GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_345_126_eht2022_04_allnoise_10s_345GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/345/M87_GRMHD_345_126_eht2022_04_allnoise_10s_345GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_345_128_eht2022_04_allnoise_10s_345GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/345/M87_GRMHD_345_128_eht2022_04_allnoise_10s_345GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_345_130_eht2022_04_allnoise_10s_345GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/345/M87_GRMHD_345_130_eht2022_04_allnoise_10s_345GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_345_132_eht2022_04_allnoise_10s_345GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/345/M87_GRMHD_345_132_eht2022_04_allnoise_10s_345GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_345_134_eht2022_04_allnoise_10s_345GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/345/M87_GRMHD_345_134_eht2022_04_allnoise_10s_345GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_345_136_eht2022_04_allnoise_10s_345GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/345/M87_GRMHD_345_136_eht2022_04_allnoise_10s_345GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_345_138_eht2022_04_allnoise_10s_345GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/345/M87_GRMHD_345_138_eht2022_04_allnoise_10s_345GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_345_140_eht2022_04_allnoise_10s_345GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/345/M87_GRMHD_345_140_eht2022_04_allnoise_10s_345GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_345_142_eht2022_04_allnoise_10s_345GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/345/M87_GRMHD_345_142_eht2022_04_allnoise_10s_345GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_345_144_eht2022_04_allnoise_10s_345GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/345/M87_GRMHD_345_144_eht2022_04_allnoise_10s_345GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_345_146_eht2022_04_allnoise_10s_345GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/345/M87_GRMHD_345_146_eht2022_04_allnoise_10s_345GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_345_148_eht2022_04_allnoise_10s_345GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/345/M87_GRMHD_345_148_eht2022_04_allnoise_10s_345GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_345_150_eht2022_04_allnoise_10s_345GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/345/M87_GRMHD_345_150_eht2022_04_allnoise_10s_345GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_345_152_eht2022_04_allnoise_10s_345GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/345/M87_GRMHD_345_152_eht2022_04_allnoise_10s_345GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_345_154_eht2022_04_allnoise_10s_345GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/345/M87_GRMHD_345_154_eht2022_04_allnoise_10s_345GHz_seed-1_netcal.uvfits)
+
+* [M87_GRMHD_86_116_eht2022_04_allnoise_10s_86GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/86/M87_GRMHD_86_116_eht2022_04_allnoise_10s_86GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_86_118_eht2022_04_allnoise_10s_86GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/86/M87_GRMHD_86_118_eht2022_04_allnoise_10s_86GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_86_120_eht2022_04_allnoise_10s_86GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/86/M87_GRMHD_86_120_eht2022_04_allnoise_10s_86GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_86_122_eht2022_04_allnoise_10s_86GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/86/M87_GRMHD_86_122_eht2022_04_allnoise_10s_86GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_86_124_eht2022_04_allnoise_10s_86GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/86/M87_GRMHD_86_124_eht2022_04_allnoise_10s_86GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_86_126_eht2022_04_allnoise_10s_86GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/86/M87_GRMHD_86_126_eht2022_04_allnoise_10s_86GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_86_128_eht2022_04_allnoise_10s_86GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/86/M87_GRMHD_86_128_eht2022_04_allnoise_10s_86GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_86_130_eht2022_04_allnoise_10s_86GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/86/M87_GRMHD_86_130_eht2022_04_allnoise_10s_86GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_86_132_eht2022_04_allnoise_10s_86GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/86/M87_GRMHD_86_132_eht2022_04_allnoise_10s_86GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_86_134_eht2022_04_allnoise_10s_86GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/86/M87_GRMHD_86_134_eht2022_04_allnoise_10s_86GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_86_136_eht2022_04_allnoise_10s_86GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/86/M87_GRMHD_86_136_eht2022_04_allnoise_10s_86GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_86_138_eht2022_04_allnoise_10s_86GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/86/M87_GRMHD_86_138_eht2022_04_allnoise_10s_86GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_86_140_eht2022_04_allnoise_10s_86GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/86/M87_GRMHD_86_140_eht2022_04_allnoise_10s_86GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_86_142_eht2022_04_allnoise_10s_86GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/86/M87_GRMHD_86_142_eht2022_04_allnoise_10s_86GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_86_144_eht2022_04_allnoise_10s_86GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/86/M87_GRMHD_86_144_eht2022_04_allnoise_10s_86GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_86_146_eht2022_04_allnoise_10s_86GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/86/M87_GRMHD_86_146_eht2022_04_allnoise_10s_86GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_86_148_eht2022_04_allnoise_10s_86GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/86/M87_GRMHD_86_148_eht2022_04_allnoise_10s_86GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_86_150_eht2022_04_allnoise_10s_86GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/86/M87_GRMHD_86_150_eht2022_04_allnoise_10s_86GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_86_152_eht2022_04_allnoise_10s_86GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/86/M87_GRMHD_86_152_eht2022_04_allnoise_10s_86GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_86_154_eht2022_04_allnoise_10s_86GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/eht2022/86/M87_GRMHD_86_154_eht2022_04_allnoise_10s_86GHz_seed-1_netcal.uvfits)
+
+
+M87_GRMHD, ngEHT, allnoise, 3 frequencies
+
+* [M87_GRMHD_230_116_ngeht_04_allnoise_10s_230GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/230/M87_GRMHD_230_116_ngeht_04_allnoise_10s_230GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_230_118_ngeht_04_allnoise_10s_230GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/230/M87_GRMHD_230_118_ngeht_04_allnoise_10s_230GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_230_120_ngeht_04_allnoise_10s_230GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/230/M87_GRMHD_230_120_ngeht_04_allnoise_10s_230GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_230_122_ngeht_04_allnoise_10s_230GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/230/M87_GRMHD_230_122_ngeht_04_allnoise_10s_230GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_230_124_ngeht_04_allnoise_10s_230GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/230/M87_GRMHD_230_124_ngeht_04_allnoise_10s_230GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_230_126_ngeht_04_allnoise_10s_230GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/230/M87_GRMHD_230_126_ngeht_04_allnoise_10s_230GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_230_128_ngeht_04_allnoise_10s_230GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/230/M87_GRMHD_230_128_ngeht_04_allnoise_10s_230GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_230_130_ngeht_04_allnoise_10s_230GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/230/M87_GRMHD_230_130_ngeht_04_allnoise_10s_230GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_230_132_ngeht_04_allnoise_10s_230GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/230/M87_GRMHD_230_132_ngeht_04_allnoise_10s_230GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_230_134_ngeht_04_allnoise_10s_230GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/230/M87_GRMHD_230_134_ngeht_04_allnoise_10s_230GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_230_136_ngeht_04_allnoise_10s_230GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/230/M87_GRMHD_230_136_ngeht_04_allnoise_10s_230GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_230_138_ngeht_04_allnoise_10s_230GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/230/M87_GRMHD_230_138_ngeht_04_allnoise_10s_230GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_230_140_ngeht_04_allnoise_10s_230GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/230/M87_GRMHD_230_140_ngeht_04_allnoise_10s_230GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_230_142_ngeht_04_allnoise_10s_230GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/230/M87_GRMHD_230_142_ngeht_04_allnoise_10s_230GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_230_144_ngeht_04_allnoise_10s_230GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/230/M87_GRMHD_230_144_ngeht_04_allnoise_10s_230GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_230_146_ngeht_04_allnoise_10s_230GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/230/M87_GRMHD_230_146_ngeht_04_allnoise_10s_230GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_230_148_ngeht_04_allnoise_10s_230GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/230/M87_GRMHD_230_148_ngeht_04_allnoise_10s_230GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_230_150_ngeht_04_allnoise_10s_230GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/230/M87_GRMHD_230_150_ngeht_04_allnoise_10s_230GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_230_152_ngeht_04_allnoise_10s_230GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/230/M87_GRMHD_230_152_ngeht_04_allnoise_10s_230GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_230_154_ngeht_04_allnoise_10s_230GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/230/M87_GRMHD_230_154_ngeht_04_allnoise_10s_230GHz_seed-1_netcal.uvfits)
+
+* [M87_GRMHD_345_116_ngeht_04_allnoise_10s_345GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/345/M87_GRMHD_345_116_ngeht_04_allnoise_10s_345GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_345_118_ngeht_04_allnoise_10s_345GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/345/M87_GRMHD_345_118_ngeht_04_allnoise_10s_345GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_345_120_ngeht_04_allnoise_10s_345GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/345/M87_GRMHD_345_120_ngeht_04_allnoise_10s_345GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_345_122_ngeht_04_allnoise_10s_345GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/345/M87_GRMHD_345_122_ngeht_04_allnoise_10s_345GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_345_124_ngeht_04_allnoise_10s_345GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/345/M87_GRMHD_345_124_ngeht_04_allnoise_10s_345GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_345_126_ngeht_04_allnoise_10s_345GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/345/M87_GRMHD_345_126_ngeht_04_allnoise_10s_345GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_345_128_ngeht_04_allnoise_10s_345GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/345/M87_GRMHD_345_128_ngeht_04_allnoise_10s_345GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_345_130_ngeht_04_allnoise_10s_345GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/345/M87_GRMHD_345_130_ngeht_04_allnoise_10s_345GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_345_132_ngeht_04_allnoise_10s_345GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/345/M87_GRMHD_345_132_ngeht_04_allnoise_10s_345GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_345_134_ngeht_04_allnoise_10s_345GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/345/M87_GRMHD_345_134_ngeht_04_allnoise_10s_345GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_345_136_ngeht_04_allnoise_10s_345GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/345/M87_GRMHD_345_136_ngeht_04_allnoise_10s_345GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_345_138_ngeht_04_allnoise_10s_345GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/345/M87_GRMHD_345_138_ngeht_04_allnoise_10s_345GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_345_140_ngeht_04_allnoise_10s_345GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/345/M87_GRMHD_345_140_ngeht_04_allnoise_10s_345GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_345_142_ngeht_04_allnoise_10s_345GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/345/M87_GRMHD_345_142_ngeht_04_allnoise_10s_345GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_345_144_ngeht_04_allnoise_10s_345GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/345/M87_GRMHD_345_144_ngeht_04_allnoise_10s_345GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_345_146_ngeht_04_allnoise_10s_345GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/345/M87_GRMHD_345_146_ngeht_04_allnoise_10s_345GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_345_148_ngeht_04_allnoise_10s_345GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/345/M87_GRMHD_345_148_ngeht_04_allnoise_10s_345GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_345_150_ngeht_04_allnoise_10s_345GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/345/M87_GRMHD_345_150_ngeht_04_allnoise_10s_345GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_345_152_ngeht_04_allnoise_10s_345GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/345/M87_GRMHD_345_152_ngeht_04_allnoise_10s_345GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_345_154_ngeht_04_allnoise_10s_345GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/345/M87_GRMHD_345_154_ngeht_04_allnoise_10s_345GHz_seed-1_netcal.uvfits)
+
+* [M87_GRMHD_86_116_ngeht_04_allnoise_10s_86GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/86/M87_GRMHD_86_116_ngeht_04_allnoise_10s_86GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_86_118_ngeht_04_allnoise_10s_86GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/86/M87_GRMHD_86_118_ngeht_04_allnoise_10s_86GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_86_120_ngeht_04_allnoise_10s_86GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/86/M87_GRMHD_86_120_ngeht_04_allnoise_10s_86GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_86_122_ngeht_04_allnoise_10s_86GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/86/M87_GRMHD_86_122_ngeht_04_allnoise_10s_86GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_86_124_ngeht_04_allnoise_10s_86GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/86/M87_GRMHD_86_124_ngeht_04_allnoise_10s_86GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_86_126_ngeht_04_allnoise_10s_86GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/86/M87_GRMHD_86_126_ngeht_04_allnoise_10s_86GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_86_128_ngeht_04_allnoise_10s_86GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/86/M87_GRMHD_86_128_ngeht_04_allnoise_10s_86GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_86_130_ngeht_04_allnoise_10s_86GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/86/M87_GRMHD_86_130_ngeht_04_allnoise_10s_86GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_86_132_ngeht_04_allnoise_10s_86GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/86/M87_GRMHD_86_132_ngeht_04_allnoise_10s_86GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_86_134_ngeht_04_allnoise_10s_86GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/86/M87_GRMHD_86_134_ngeht_04_allnoise_10s_86GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_86_136_ngeht_04_allnoise_10s_86GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/86/M87_GRMHD_86_136_ngeht_04_allnoise_10s_86GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_86_138_ngeht_04_allnoise_10s_86GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/86/M87_GRMHD_86_138_ngeht_04_allnoise_10s_86GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_86_140_ngeht_04_allnoise_10s_86GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/86/M87_GRMHD_86_140_ngeht_04_allnoise_10s_86GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_86_142_ngeht_04_allnoise_10s_86GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/86/M87_GRMHD_86_142_ngeht_04_allnoise_10s_86GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_86_144_ngeht_04_allnoise_10s_86GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/86/M87_GRMHD_86_144_ngeht_04_allnoise_10s_86GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_86_146_ngeht_04_allnoise_10s_86GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/86/M87_GRMHD_86_146_ngeht_04_allnoise_10s_86GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_86_148_ngeht_04_allnoise_10s_86GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/86/M87_GRMHD_86_148_ngeht_04_allnoise_10s_86GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_86_150_ngeht_04_allnoise_10s_86GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/86/M87_GRMHD_86_150_ngeht_04_allnoise_10s_86GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_86_152_ngeht_04_allnoise_10s_86GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/86/M87_GRMHD_86_152_ngeht_04_allnoise_10s_86GHz_seed-1_netcal.uvfits)
+* [M87_GRMHD_86_154_ngeht_04_allnoise_10s_86GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/M87_GRMHD/ngeht/86/M87_GRMHD_86_154_ngeht_04_allnoise_10s_86GHz_seed-1_netcal.uvfits)
+
+SGRA_GRMHD
+
+* [SGRA_GRMHD_230_scat_eht2022_04_allnoise_10s_230GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/SGRA_GRMHD/eht2022/230/SGRA_GRMHD_230_scat_eht2022_04_allnoise_10s_230GHz_seed-1_netcal.uvfits)
+* [SGRA_GRMHD_345_scat_eht2022_04_allnoise_10s_345GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/SGRA_GRMHD/eht2022/345/SGRA_GRMHD_345_scat_eht2022_04_allnoise_10s_345GHz_seed-1_netcal.uvfits)
+* [SGRA_GRMHD_86_scat_eht2022_04_allnoise_10s_86GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/SGRA_GRMHD/eht2022/86/SGRA_GRMHD_86_scat_eht2022_04_allnoise_10s_86GHz_seed-1_netcal.uvfits)
+
+* [SGRA_GRMHD_230_scat_ngeht_04_allnoise_10s_230GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/SGRA_GRMHD/ngeht/230/SGRA_GRMHD_230_scat_ngeht_04_allnoise_10s_230GHz_seed-1_netcal.uvfits)
+* [SGRA_GRMHD_345_scat_ngeht_04_allnoise_10s_345GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/SGRA_GRMHD/ngeht/345/SGRA_GRMHD_345_scat_ngeht_04_allnoise_10s_345GHz_seed-1_netcal.uvfits)
+* [SGRA_GRMHD_86_scat_ngeht_04_allnoise_10s_86GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/SGRA_GRMHD/ngeht/86/SGRA_GRMHD_86_scat_ngeht_04_allnoise_10s_86GHz_seed-1_netcal.uvfits)
+
+SGRA_hotspot
+
+* [SGRA_RIAFSPOT_230_scat_eht2022_04_allnoise_10s_230GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/SGRA_RIAFSPOT/eht2022/230/SGRA_RIAFSPOT_230_scat_eht2022_04_allnoise_10s_230GHz_seed-1_netcal.uvfits)
+* [SGRA_RIAFSPOT_345_scat_eht2022_04_allnoise_10s_345GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/SGRA_RIAFSPOT/eht2022/345/SGRA_RIAFSPOT_345_scat_eht2022_04_allnoise_10s_345GHz_seed-1_netcal.uvfits)
+* [SGRA_RIAFSPOT_86_scat_eht2022_04_allnoise_10s_86GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/SGRA_RIAFSPOT/eht2022/86/SGRA_RIAFSPOT_86_scat_eht2022_04_allnoise_10s_86GHz_seed-1_netcal.uvfits)
+
+* [SGRA_RIAFSPOT_230_scat_ngeht_04_allnoise_10s_230GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/SGRA_RIAFSPOT/ngeht/230/SGRA_RIAFSPOT_230_scat_ngeht_04_allnoise_10s_230GHz_seed-1_netcal.uvfits)
+* [SGRA_RIAFSPOT_345_scat_ngeht_04_allnoise_10s_345GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/SGRA_RIAFSPOT/ngeht/345/SGRA_RIAFSPOT_345_scat_ngeht_04_allnoise_10s_345GHz_seed-1_netcal.uvfits)
+* [SGRA_RIAFSPOT_86_scat_ngeht_04_allnoise_10s_86GHz_seed-1_netcal.uvfits](./Challenge_2/synthetic_data/SGRA_RIAFSPOT/ngeht/86/SGRA_RIAFSPOT_86_scat_ngeht_04_allnoise_10s_86GHz_seed-1_netcal.uvfits)
