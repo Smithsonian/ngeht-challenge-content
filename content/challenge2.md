@@ -132,7 +132,7 @@ For each combination, make a folder challenge2\_[source]\_[subtype]\_[array]\_[f
 
 Example: challenge2\_SGRA\_GRMHD\_eht2022\_230\_ehtim\_freekroelofs
 
-Within the folder, put the FITS images sorted by timestamp in hours UT,
+Within the folder, put the FITS images sorted by frame number,
 e.g. 0000.fits, 0001.fits, etc. Also provide the start time in hours UT and frame duration in
 hours in a file timestamps.txt, which for a movie starting at midnight UT with a frame duration of 10 minutes should look like:
 
