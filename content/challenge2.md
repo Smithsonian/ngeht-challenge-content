@@ -46,7 +46,7 @@ installation advice.
 
 ## Schedule
 
-- Oct 22, 2021: Data release
+- Oct 25, 2021: Data release
 - Oct 31, 2021: Submission deadline for inclusion in ngEHT November meeting activities
 - Dec 3, 2021: Nominal submission deadline
 
@@ -122,9 +122,10 @@ For the zip files, use the format challenge2\_[firstnamelastname].zip.
 
 Example: challenge2_freekroelofs.zip
 
-For each combination, make a folder challenge2\_[source]\_[array]\_[frequency]\_[method]\_[firstnamelastname]
+For each combination, make a folder challenge2\_[source]\_[subtype]\_[array]\_[frequency]\_[method]\_[firstnamelastname]
 
-- source: SGRA\_RIAFSPOT, SGRA\_GRMHD or M87\_GRMHD
+- source: SGRA or M87
+- subtype: GRMHD or RIAFSPOT
 - array: eht2022 or ngeht\_ref1
 - frequency: 86, 230, 345, or e.g. 230+345
 - method: e.g. ehtim, smili, clean, themage
@@ -132,12 +133,14 @@ For each combination, make a folder challenge2\_[source]\_[array]\_[frequency]\_
 Example: challenge2\_SGRA\_GRMHD\_eht2022\_230\_ehtim\_freekroelofs
 
 Within the folder, put the FITS images sorted by frame number,
-e.g. 0000.fits, 0001.fits, etc. Also provide the frame duration in
-hours in a file framedur.txt.
+e.g. 0000.fits, 0001.fits, etc. Also provide the start time in hours UT and frame duration in
+hours in a file timestamps.txt, which for a movie starting at midnight UT with a frame duration of 10 minutes should look like:
 
-For non-imaging results, use the format challenge2\_[source]\_[array]\_[frequency]\_nonimaging\_[firstnamelastname].txt
+0.00 0.16666666666667
 
-Example: challenge2\_SGRA\_eht2022\_230\_nonimaging\_freekroelofs.txt
+For non-imaging results, use the format challenge2\_[source]\_[subtype]\_[array]\_[frequency]\_nonimaging\_[firstnamelastname].txt
+
+Example: challenge2\_SGRA\_GRMHD\_eht2022\_230\_nonimaging\_freekroelofs.txt
 
 For the evaluation, use the format challenge2\_evaluation\_[firstnamelastname].txt. 
 
