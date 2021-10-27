@@ -1,8 +1,7 @@
 title: Analysis Challenge #2 Downloads
 slug: c2downloads
 
-The total size of these files is 1.7 gigabytes unpacked, and ??? megabytes combined
-into a single zip file.
+The total size of these files is 1.7 gigabytes unpacked.
 
 ## Download everything at once
 
@@ -10,36 +9,31 @@ into a single zip file.
 
 ## Download as individual files
 
+Writeup
+
+* [challenge1_writeup.pdf](./Challenge_2/challenge1_writeup.pdf)
+
 Arrays
 
 * [ngeht_230GHz_month04_q50_symba.antennas](./Challenge_2/arrays/ngeht_230GHz_month04_q50_symba.antennas)
 * [ngeht_345GHz_month04_q50_symba.antennas](./Challenge_2/arrays/ngeht_345GHz_month04_q50_symba.antennas)
 * [ngeht_86GHz_month04_q50_symba.antennas](./Challenge_2/arrays/ngeht_86GHz_month04_q50_symba.antennas)
 
-
 Models
-
-Mac users note: because of the particular codec used in these mp4 files, you will
-want to download [MKPlayer](https://apps.apple.com/us/app/mkplayer-mkv-media-player/id1335612105?mt=12) or VLC
-to play these movies. [Bug report](https://forums.macrumors.com/threads/unable-to-play-h264-avc-mp4-in-quicktime-player-10.1747170/)
 
 M87_GRMHD movies
 
-* [M87_230.mp4](./Challenge_2/models/M87_GRMHD/M87_230.mp4)
-* [M87_345.mp4](./Challenge_2/models/M87_GRMHD/M87_345.mp4)
-* [M87_86.mp4](./Challenge_2/models/M87_GRMHD/M87_86.mp4)
+* [M87_GRMHD.mp4](./Challenge_2/models/M87_GRMHD/M87_GRMHD.mp4)
 
 SgrA_GRMHD movies
 
-* [SGRA_GRMHD_230.mp4](./Challenge_2/models/SgrA_GRMHD/SGRA_GRMHD_230.mp4)
-* [SGRA_GRMHD_345.mp4](./Challenge_2/models/SgrA_GRMHD/SGRA_GRMHD_345.mp4)
-* [SGRA_GRMHD_86.mp4](./Challenge_2/models/SgrA_GRMHD/SGRA_GRMHD_86.mp4)
+* [SGRA_GRMHD_.mp4](./Challenge_2/models/SgrA_GRMHD/SGRA_GRMHD.mp4)
+* [SGRA_GRMHD_scat.mp4](./Challenge_2/models/SgrA_GRMHD/SGRA_GRMHD_scat.mp4)
 
 SgrA_hotspot movies
 
-* [SGRA_230.mp4](./Challenge_2/models/SgrA_hotspot/SGRA_230.mp4)
-* [SGRA_345.mp4](./Challenge_2/models/SgrA_hotspot/SGRA_345.mp4)
-* [SGRA_86.mp4](./Challenge_2/models/SgrA_hotspot/SGRA_86.mp4)
+* [SGRA_RIAFSPOT.mp4](./Challenge_2/models/SGRA_RIAFSPOT/SGRA_RIAFSPOT.mp4)
+* [SGRA_RIAFSPOT_scat.mp4](./Challenge_2/models/SGRA_RIAFSPOT/SGRA_RIAFSPOT_scat.mp4)
 
 Synthetic Data
 
