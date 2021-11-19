@@ -1,4 +1,4 @@
-# Editing the ngEHT Analysis Website
+# Editing the ngEHT Challenge Website
 
 This git repo contains the content of the ngEHT Analysis Challenge website.
 
@@ -14,9 +14,9 @@ The github repos are currently
 You will probably only need the first repo.
 
 Following the overall theme of training people, we're going to update
-the website using github "pull requests", which is the usualy way
+the website using github "pull requests", which is the usually way
 people use github for collaborative software developments. We'll also
-be using the "markdown" formatting langauge for documents, enhanced
+be using the "markdown" formatting language for documents, enhanced
 with a plugin that lets us use TeX to typeset math.
 
 ## Website layout
@@ -45,7 +45,7 @@ in all of the challenge pages.
 
 ## Adding static files
 
-If you want to add more .fits files to the website, for exmaple sample data or
+If you want to add more .fits files to the website, for example sample data or
 image examples, place them in the directory content/static/
 
 ## Editing content and submitting a pull request
