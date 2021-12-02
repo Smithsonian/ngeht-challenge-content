@@ -48,7 +48,7 @@ installation advice.
 
 - Oct 25, 2021: Data release
 - Oct 31, 2021: Submission deadline for inclusion in ngEHT November meeting activities
-- Dec 3, 2021: Nominal submission deadline
+- Jan 7, 2022: Nominal submission deadline
 
 ## <a name="Downloads">Downloads</a>
 
@@ -66,6 +66,8 @@ password is available if you ask on Slack, on the
 [Challenge 2 Downloads](../c2downloads/)
 
 ## Submit your results
+
+If you have any problems with this upload, please contact Greg Lindahl on slack or email at glindahl ZAT cfa.harvard.edu
 
 <form action="/upload" method="post" accept-charset="utf-8"
       enctype="multipart/form-data">

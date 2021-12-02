@@ -21,6 +21,6 @@ affect our ability to achieve our science goals.
 
 - Oct 25, 2021: Data release
 - Oct 31, 2021: Submission deadline for inclusion in ngEHT November meeting activities
-- Dec 3, 2021: Nominal submission deadline
+- Jan 7, 2022: Nominal submission deadline
 
 ![ngEHT](../static/Semifinal_Logo_White_Symbol.jpeg)
