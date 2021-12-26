@@ -23,4 +23,4 @@ affect our ability to achieve our science goals.
 - Oct 31, 2021: Submission deadline for inclusion in ngEHT November meeting activities
 - Jan 7, 2022: Nominal submission deadline
 
-![ngEHT](../static/Semifinal_Logo_White_Symbol.jpeg)
+![ngEHT logo](../static/Semifinal_Logo_White_Symbol.jpeg)
