@@ -69,7 +69,7 @@ If you have any problems with this upload, please contact Greg Lindahl on slack 
 <form action="/upload" method="post" accept-charset="utf-8"
       enctype="multipart/form-data">
 
-    <input type="hidden" name="challenge" value="challenge2"/>
+    <input type="hidden" name="challenge" value="challenge3"/>
     <input type="text" name="name" placeholder="Your Name"/><br/>
     <input type="email" name="email" placeholder="Your Email"/><br/>
     <label for="zip">zip file: </label>
