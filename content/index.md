@@ -14,7 +14,8 @@ affect our ability to achieve our science goals.
 
 ## Schedule -- [Challenge 3]({filename}challenge3.md)
 
-- XXX, 2022: Data release
+- Mar 25, 2022: Data release
+- May 1, 2022: Nominal submission deadline for inclusion in first challenge writeup
 
 ## Schedule -- [Challenge 2]({filename}challenge2.md)
 

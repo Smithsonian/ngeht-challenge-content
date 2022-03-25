@@ -44,7 +44,7 @@ installation advice.
 
 ## Schedule
 
-- Mar 16, 2022: Data release
+- Mar 25, 2022: Data release
 - May 1, 2022: Nominal submission deadline for inclusion in first challenge writeup
 
 ## <a name="Downloads">Downloads</a>
@@ -60,7 +60,7 @@ it's still `challenge1` for the third challenge!) and the secret
 password is available if you ask on Slack, on the
 `analysis-challenge-3` channel on the ngEHT Slack.
 
-[Challenge 2 Downloads](../c2downloads/)
+[Challenge 3 Downloads](../c3downloads/)
 
 ## Submit your results
 
