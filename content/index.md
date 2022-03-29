@@ -14,18 +14,20 @@ affect our ability to achieve our science goals.
 
 ## Schedule -- [Challenge 3]({filename}challenge3.md)
 
-- Mar 25, 2022: Data release
-- May 1, 2022: Nominal submission deadline for inclusion in first challenge writeup
+- Mar 29, 2022: Data release
+- June 6, 2022: Submission deadline for inclusion Granada meeting presentation
 
 ## Schedule -- [Challenge 2]({filename}challenge2.md)
 
 - Oct 25, 2021: Data release
 - Oct 31, 2021: Submission deadline for inclusion in ngEHT November meeting activities
 - Jan 7, 2022: Nominal submission deadline
+- May 1, 2022: Submission deadline for inclusion in Challenge 1+2 paper
 
 ## Schedule -- [Challenge 1]({filename}challenge1.md)
 
 - June 18, 2021: General announcement
 - July 16 2021: Submission deadline
+- May 1, 2022: Submission deadline for inclusion in Challenge 1+2 paper
 
 ![ngEHT logo](../static/Semifinal_Logo_White_Symbol.jpeg)

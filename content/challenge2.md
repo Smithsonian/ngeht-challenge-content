@@ -49,6 +49,7 @@ installation advice.
 - Oct 25, 2021: Data release
 - Oct 31, 2021: Submission deadline for inclusion in ngEHT November meeting activities
 - Jan 7, 2022: Nominal submission deadline
+- May 1, 2022: Submission deadline for inclusion in Challenge 1+2 paper
 
 ## <a name="Downloads">Downloads</a>
 

@@ -40,6 +40,7 @@ installation advice.
 
 - June 18, 2021: General announcement
 - July 16, 2021: Submission deadline
+- May 1, 2022: Submission deadline for inclusion in Challenge 1+2 paper
 
 ## <a name="Downloads">Downloads</a>
 

@@ -44,9 +44,8 @@ installation advice.
 
 ## Schedule
 
-- Mar 25, 2022: Data release
-- May 1, 2022: Nominal submission deadline for inclusion in first challenge writeup
-
+- Mar 29, 2022: Data release
+- June 6, 2022: Submission deadline for inclusion Granada meeting presentation
 ## <a name="Downloads">Downloads</a>
 
 Please note that unless otherwise specified, all source models and
