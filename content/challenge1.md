@@ -22,6 +22,8 @@ source models and data products should be kept proprietary among those
 currently invited to participate in the challenge, which includes all
 EHT Collaboration members.
 
+The information below is (partly) published in our [Galaxies paper](https://ui.adsabs.harvard.edu/abs/2023Galax..11...12R/abstract).
+
 ## Table of Contents
 
 - [Downloads](./#Downloads)

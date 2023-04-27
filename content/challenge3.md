@@ -28,6 +28,8 @@ to participate in the challenge, which includes all EHT Collaboration
 members, and any members of ngEHT science and technical working
 groups.
 
+The information below is (partly) published in our [Galaxies paper](https://ui.adsabs.harvard.edu/abs/2023Galax..11...12R/abstract).
+
 ## Table of Contents
 
 - [Downloads](./#Downloads)
@@ -210,5 +212,8 @@ antenna and weather parameters.
 - Antenna pointing offsets: 2” rms for each station, stable over a scan
 - For Sgr A\* models: each frame was scattered with a refractive scattering screen. The screen is static and self-consistent between frequencies.
 - Network calibration was applied, using the (varying) source model flux to calibrate ALMA-APEX and JCMT-SMA
-- All Stokes parameters were simulated. No polarization leakage was added to the data. 
+- All Stokes parameters were simulated. 
+- No polarization leakage was added to the data. 
+- No R/L gain offsets were applied.
+- The data have been corrected for parallactic angle rotation.
 

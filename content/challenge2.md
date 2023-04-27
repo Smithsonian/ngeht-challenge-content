@@ -30,6 +30,8 @@ to participate in the challenge, which includes all EHT Collaboration
 members, and any members of ngEHT science and technical working
 groups.
 
+The information below is (partly) published in our [Galaxies paper](https://ui.adsabs.harvard.edu/abs/2023Galax..11...12R/abstract).
+
 ## Table of Contents
 
 - [Downloads](./#Downloads)
