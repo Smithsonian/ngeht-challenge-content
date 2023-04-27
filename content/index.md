@@ -22,12 +22,12 @@ The Challenge 1 and 2 results have been published in the ngEHT Special Issue of 
 ## Schedule -- [Challenge 3]({filename}challenge3.md)
 
 - Mar 29, 2022: Data release
-- June 6, 2022: Submission deadline for inclusion Granada meeting presentation
+- June 6, 2022: Submission deadline for inclusion in the summer 2022 Granada meeting presentation
 
 ## Schedule -- [Challenge 2]({filename}challenge2.md)
 
 - Oct 25, 2021: Data release
-- Oct 31, 2021: Submission deadline for inclusion in ngEHT November meeting activities
+- Oct 31, 2021: Submission deadline for inclusion in ngEHT November 2021 meeting activities
 - Jan 7, 2022: Nominal submission deadline
 - May 1, 2022: Submission deadline for inclusion in Challenge 1+2 paper
 
