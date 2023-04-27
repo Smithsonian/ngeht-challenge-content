@@ -12,6 +12,13 @@ different imaging algorithms on simulated data from the expanded
 array, and will help us assess how different array options might
 affect our ability to achieve our science goals.
 
+## Publications
+The Challenge 1 and 2 results have been published in the ngEHT Special Issue of Galaxies. [This paper](https://ui.adsabs.harvard.edu/abs/2023Galax..11...12R/abstract) can be used as a reference for the Analysis Challenges in general.
+
+## Schedule -- [Challenge 4]({filename}challenge4.md)
+
+- TBD: Data release
+
 ## Schedule -- [Challenge 3]({filename}challenge3.md)
 
 - Mar 29, 2022: Data release
