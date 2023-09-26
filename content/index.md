@@ -17,7 +17,10 @@ The Challenge 1 and 2 results have been published in the ngEHT Special Issue of 
 
 ## Schedule -- [Challenge 4]({filename}challenge4.md)
 
-- TBD: Data release
+- Sep 29, 2023: Data release
+- November 10, 2023: Submission deadline
+
+In parallel to Challenge 4, we are also running the ngEHT Forecasting Tournament. Participation in this tournament is highly encouraged for everyone! See [link] for more information.
 
 ## Schedule -- [Challenge 3]({filename}challenge3.md)
 
