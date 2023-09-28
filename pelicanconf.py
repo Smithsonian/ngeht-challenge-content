@@ -42,7 +42,8 @@ DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
 MENUITEMS = (('C#1', '/challenge1/'),
              ('C#2', '/challenge2/'),
-             ('Challenge #3', '/challenge3/'),
+             ('C#3', '/challenge3/'),
+             ('Challenge #4', '/challenge4/'),
              ('Installing', '/installing/'),
              ('FAQ', '/faq/'),
              ('Credits', '/credits/'),)

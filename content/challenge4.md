@@ -1,8 +1,17 @@
 title: Analysis Challenge #4
 slug: challenge4
 
-
-Welcome to the fourth ngEHT Analysis Challenge! The fourth Challenge differs from the first three in that the primary focus is not on image reconstruction, but on black hole parameter estimation. We have generated synthetic ngEHT datasets from three different M87-inspired models: a geometric m-ring model, a time-averaged GRMHD image, and a GRMHD snapshot image. We invite participants to submit measurements (preferably with 1-sigma errors) of a set of parameters defined below. If you want to use an imaging algorithm but don't have access to a parameter estimation algorithm, you may also upload image reconstructions, from which we will extract relevant (geometric) parameters. 
+Welcome to the fourth ngEHT Analysis Challenge! The fourth Challenge
+differs from the first three in that the primary focus is not on image
+reconstruction, but on black hole parameter estimation. We have
+generated synthetic ngEHT datasets from three different M87-inspired
+models: a geometric m-ring model, a time-averaged GRMHD image, and a
+GRMHD snapshot image. We invite participants to submit measurements
+(preferably with 1-sigma errors) of a set of parameters defined below.
+If you want to use an imaging algorithm but don't have access to a
+parameter estimation algorithm, you may also upload image
+reconstructions, from which we will extract relevant (geometric)
+parameters.
 
 Please note that unless otherwise specified, all source models and
 data products should be kept proprietary among those currently invited
@@ -22,8 +31,8 @@ In parallel to Challenge 4, we are also running the ngEHT Forecasting Tournament
 
 The primary way to talk to the challenge organizers is the private
 `analysis-challenge-4` channel on the ngEHT Slack.  If you need an
-invite to the Slack or to the channel, please contact Greg at glindahl
-ZAT cfa.harvard.edu.  We're also happy to help people with software
+invite to the Slack or to the channel, please contact Greg at lindahl
+ZAT pbm.com.  We're also happy to help people with software
 installation advice.
 
 ## Schedule
@@ -31,11 +40,20 @@ installation advice.
 - September 29, 2023: Data release
 - November 10, 2023: Submission deadline
 
+## <a name="Downloads">Downloads</a>
+
+Please note that unless otherwise specified, all source models and
+data products should be kept proprietary among those currently invited
+to participate in the challenge, which includes all EHT Collaboration
+members, and any members of ngEHT science and technical working
+groups.
+
 Downloads are password protected: the username is `challenge1` (yes,
 it's still `challenge1` for the fourth challenge!) and the secret
 password is available if you ask the organizers, or on the
 `analysis-challenge-4` channel on the ngEHT Slack.
 
+[Challenge 4 Downloads](../c4downloads/)
 
 ## Submit your results
 
@@ -76,7 +94,7 @@ Geometric ring (n=0 and/or n=1) parameters (for all datasets):
 - Fractional flux of the n=1 ring
 
 - Total linear and/or circular polarization fraction
- 
+
 - Complex (total intensity, linear and/or circular polarization) beta-modes (up to m=2)
 
 
@@ -228,7 +246,7 @@ ch4\_[model]\_[array]\_[frequency]GHz\_[syntheticdatapipeline]\_[analysismethodn
 
 - syntheticdatapipeline: ngehtsim or symba
 
-You can provide additional explanations in a seperate (text) file. 
+You can provide additional explanations in a seperate (text) file.
 
 Please upload any images (.fits or .hdf5) using the same file name format as above.
 
