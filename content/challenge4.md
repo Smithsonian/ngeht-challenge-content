@@ -19,7 +19,10 @@ to participate in the challenge, which includes all EHT Collaboration
 members, and any members of ngEHT science and technical working
 groups.
 
-In parallel to Challenge 4, we are also running the ngEHT Forecasting Tournament. Participation in this tournament is highly encouraged for everyone! See [link] for more information.
+In parallel to Challenge 4, we are also running the ngEHT Forecasting
+Tournament. Participation in this tournament is highly encouraged for
+everyone! (The tournament will be launched soon, and a link will be
+posted here.)
 
 ## Table of Contents
 
@@ -240,7 +243,7 @@ With the file name following the format below:
 
 ch4\_[model]\_[array]\_[frequency]GHz\_[syntheticdatapipeline]\_[analysismethodname]\_[firstnamelastname]\_measurements.txt
 
-- model: mring, grmhd\_[average], or grmhd\_[singleframe]
+- model: mring, grmhd\_average, or grmhd\_singleframe
 
 - array: phase1 or phase2
 
