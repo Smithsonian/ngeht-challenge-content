@@ -21,8 +21,9 @@ groups.
 
 In parallel to Challenge 4, we are also running the ngEHT Forecasting
 Tournament. Participation in this tournament is highly encouraged for
-everyone! (The tournament will be launched soon, and a link will be
-posted here.)
+everyone! Please fill out the questionnaire <a href="https://cambridge.eu.qualtrics.com/jfe/form/SV_37tTpiGGvs8Dajc">here</a>.
+
+To get you extra motivated we now have a **grand prize** for the best submission, which will be a dinner for two! Submissions can come in the form of image reconstructions or results from a model fit. We are especially interested in the recovery of both geometric and physical source parameters. Submissions will be judged based on (a combination of) image reconstruction quality, number of measured parameters, and accuracy and precision of the parameter measurements.
 
 ## Table of Contents
 
@@ -42,6 +43,7 @@ installation advice.
 
 - September 29, 2023: Data release
 - November 10, 2023: Submission deadline
+- May 1, 2024: Second submission deadline
 
 ## <a name="Downloads">Downloads</a>
 
