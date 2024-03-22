@@ -19,8 +19,9 @@ The Challenge 1 and 2 results have been published in the ngEHT Special Issue of 
 
 - Sep 29, 2023: Data release
 - November 10, 2023: Submission deadline
+- May 1, 2024: Second submission deadline
 
-In parallel to Challenge 4, we are also running the ngEHT Forecasting Tournament. Participation in this tournament is highly encouraged for everyone! See [link] for more information.
+In parallel to Challenge 4, we are also running the ngEHT Forecasting Tournament. Participation in this tournament is highly encouraged for everyone! See <a href="https://cambridge.eu.qualtrics.com/jfe/form/SV_37tTpiGGvs8Dajc">here</a> for more information.
 
 ## Schedule -- [Challenge 3]({filename}challenge3.md)
 
